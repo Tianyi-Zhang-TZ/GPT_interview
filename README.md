@@ -115,11 +115,11 @@ LLMs输出的回答应按照以下格式储存：
 >
 > ├─model_name/ 比如gpt-4
 >
-> ​	├─answers_opva_“question_tpye”_infor/ 比如answers_opva_factors_infor
+> ​        ├─answers_opva_“question_tpye”_infor/ 比如answers_opva_factors_infor
 >
-> ​		├──users_id.txt 比如5a0f7d84ff266c0001d209cc.txt
+> ​                ├──users_id.txt 比如5a0f7d84ff266c0001d209cc.txt
 >
-> ​		└── .....
+> ​                └── .....
 
 
 
@@ -153,10 +153,10 @@ data_analysis.py 用于输出不同任务的预测值的表现。详见:
 >
 > ├─output_data_finetuning
 >
-> ​	├─model_name/ 比如gpt-4
+> ​        ├─model_name/ 比如gpt-4
 >
-> ​		├─answers_opva_“question_tpye”_infor/ 比如answers_opva_factors_infor
+> ​                ├─answers_opva_“question_tpye”_infor/ 比如answers_opva_factors_infor
 >
-> ​			├──users_id.txt 比如5a0f7d84ff266c0001d209cc.txt
+> ​                        ├──users_id.txt 比如5a0f7d84ff266c0001d209cc.txt
 >
-> ​			└── .....
+> ​                        └── .....
