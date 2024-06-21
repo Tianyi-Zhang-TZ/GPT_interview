@@ -1,5 +1,13 @@
 # GPT Interview 说明文档
 
+数据库具体细节及前期工作详见：
+
+> Zhang, Tianyi, et al. "Can Large Language Models Assess Personality from Asynchronous Video Interviews? A Comprehensive Evaluation of Validity, Reliability, Fairness, and Rating Patterns." *IEEE Transactions on Affective Computing* (2024). 
+>
+> https://tianyi-zhang-tz.github.io/Tianyi-Zhang-TZ/papers/LLMs_Personality.pdf
+
+
+
 ## 0. opva数据库标签信息说明
 
 ### 0.1 人格标签信息
