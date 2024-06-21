@@ -34,7 +34,7 @@
 
 字典文件，包含了5个变量
 
-![image-20240621153528523](C:\Working_space\github_repository\GPT_interview\readme_figures\image-20240621153528523.png)
+![image-20240621153528523](https://github.com/Tianyi-Zhang-TZ/GPT_interview/blob/main/readme_figures/image-20240621153528523.png)
 
 ### 1.1 ground_truth_opva
 
@@ -99,11 +99,11 @@ prompt的组成格式如下：
 
 **任务1，2：**
 
-![image-20240621180748541](C:\Working_space\github_repository\GPT_interview\readme_figures\image-20240621180748541.png)
+![image-20240621180748541](https://github.com/Tianyi-Zhang-TZ/GPT_interview/blob/main/readme_figures/image-20240621180748541.png)
 
 **任务3：**
 
-![image-20240621180817522](C:\Working_space\github_repository\GPT_interview\readme_figures\image-20240621180817522.png)
+![image-20240621180817522](https://github.com/Tianyi-Zhang-TZ/GPT_interview/blob/main/readme_figures/image-20240621180817522.png)
 
 
 
