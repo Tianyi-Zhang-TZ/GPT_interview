@@ -1,0 +1,10 @@
+Conscientiousness: 4.5 
+Extraversion: 3.0 
+
+Explanation:
+
+Conscientiousness is rated as moderately high (4.5). The individual demonstrates strong tendencies towards organization, diligence, and perfectionism in the provided answers. They show a preference for handling tasks themselves when they are challenging, showing persistence and attention to detail which aligns with high conscientiousness. Their self-reported nature of being introverted-extrovert also suggests an ability to handle social situations effectively when needed.
+
+Extraversion is rated as slightly below average (3.0). The individual seems to prefer solitude or deep connections over large social gatherings, showing a more reserved and introspective personality. They are willing to lead in group discussions but also recognize the value of others' input, suggesting they might not always seek out social interaction unless it serves their interests.
+
+Overall ratings were determined by evaluating the consistency of behaviors across all questions that align with each personality factor within the HEXACO model.

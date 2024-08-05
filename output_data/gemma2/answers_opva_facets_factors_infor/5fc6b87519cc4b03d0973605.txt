@@ -1,0 +1,13 @@
+## Personality Score Based on HEXACO Model:
+
+**Extraversion: 2.0** 
+**Conscientiousness: 4.0**
+
+**Justification:**
+
+* **Extraversion:** The individual consistently expresses discomfort in social situations with unfamiliar people, preferring smaller groups and avoiding parties. They describe anxiety and a preference for working from home to avoid social interaction. This indicates a lower tendency towards sociability and assertiveness, characteristic of lower Extraversion.
+
+* **Conscientiousness:** The individual demonstrates strong organizational skills, valuing order and cleanliness in their work environment. They exhibit diligence, finishing tasks and seeking help when needed to ensure completion. They also display a meticulous attention to detail, particularly in their accounting experience.  Furthermore, they show a preference for careful consideration over impulsive action. These traits align with a high level of Conscientiousness.
+
+
+While some aspects like encouraging teammates hint at a slightly higher Extraversion score, the overall pattern points towards a preference for solitude and a strong emphasis on order and responsibility, suggesting a lower Extraversion and higher Conscientiousness personality. 

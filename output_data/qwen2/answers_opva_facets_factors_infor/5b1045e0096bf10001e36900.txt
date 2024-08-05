@@ -1,0 +1,10 @@
+Conscientiousness: 4.0
+Extraversion: 3.0 
+
+Justification:
+
+Conscientiousness (Carefulness, Organization, Diligence, Social boldness, Liveliness): The individual consistently demonstrates a strong work ethic and conscientious behavior across multiple situations. They exhibit a high level of care in their actions, organization in various tasks, diligence towards promotions and responsibilities, social boldness in meetings, liveliness in acknowledging others' spirits during down times, and concern for attention to detail. These behaviors align with traits typically associated with a high score on the Conscientiousness factor.
+
+Extraversion (Sociability): The individual displays a moderate level of sociability, engaging in after-work social events but also making decisions based on their personal schedules and interests. They have mixed feelings about participating in such activities, suggesting they are not overly driven by social interactions nor completely aloof from them. This balanced behavior aligns with an average score on the Extraversion factor.
+
+The overall ratings reflect a personality that is conscientious yet moderately extraverted, balancing responsibility with social preferences and personal decision-making.

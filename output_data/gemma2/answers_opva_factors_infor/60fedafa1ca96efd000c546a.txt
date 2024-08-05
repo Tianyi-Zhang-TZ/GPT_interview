@@ -1,0 +1,10 @@
+Extraversion: 2.5
+Conscientiousness: 4.0
+
+**Justification:**
+
+* **Extraversion:** The individual consistently describes themselves as introverted and prefers solitude. They express discomfort in social situations and find group discussions challenging. While they can take on a leadership role in certain situations, their preference for working independently and avoiding social interaction suggests a lower score on Extraversion.
+
+* **Conscientiousness:** The individual demonstrates a strong sense of responsibility, diligence, and attention to detail. They prioritize completing tasks thoroughly and on time, even when facing challenging situations. They also show a willingness to go the extra mile and contribute to their team. Examples include their meticulous approach to contracts, their dedication to studying physics despite its difficulty, and their effort to support a teammate during a stressful moment. These behaviors align with a high score on Conscientiousness. 
+
+

@@ -1,0 +1,8 @@
+Conscientiousness: 4.5
+Extraversion: 3.2
+
+The Conscientiousness score is rated as a high midpoint because the answers consistently reflect responsible, diligent and goal-oriented behaviors which are core indicators of this personality trait. The person shows responsibility towards work tasks, decisions, team morale and planning ahead.
+
+The Extraversion score is rated as low to mid-range due to some aspects showing introversion or reserved behavior. While they do engage in social settings (question 1 & question 7), there's a sense of discomfort expressed in novel situations which can indicate more introverted traits. The individual also tends to prioritize tasks over enjoyment in after-work events, indicating less inclination towards external stimulation.
+
+These ratings are derived from the provided answers across all questions, with each scenario highlighting specific aspects related to either Conscientiousness or Extraversion.

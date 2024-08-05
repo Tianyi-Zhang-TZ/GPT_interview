@@ -1,0 +1,26 @@
+Diligence: 4.5  
+Perfectionism: 3.0  
+Prudence: 3.5  
+Social boldness: 2.5  
+Liveliness: 3.0  
+Sociability: 3.5  
+Social self-esteem: 3.5  
+Organization: 4.5  
+
+Explanation:
+
+Diligence (rating 4.5): The individual has a strong work ethic and high expectations of themselves, often pushing themselves to exceed expectations and is driven to succeed.
+
+Perfectionism (rating 3.0): They have an expectation for perfect outcomes in their tasks, suggesting that they are meticulous about details but might struggle slightly with perfection due to the acknowledgment of not having done this perfectly before.
+
+Prudence (rating 3.5): While cautious, there seems a bit of indecisiveness when making immediate decisions without considering potential costs and benefits thoroughly. 
+
+Social boldness (rating 2.5): The individual is approachable and willing to initiate conversations but might feel slightly uncomfortable in new social settings, suggesting that they could be more outgoing.
+
+Liveliness (rating 3.0): They have a nurturing nature and care about maintaining morale within their team, showing a lively aspect of personality which contributes positively to the work environment.
+
+Sociability (rating 3.5): The individual tends to attend social events after work or during conferences if they feel energized enough to do so, demonstrating an overall sociable disposition with some selectivity based on personal preferences and energy levels.
+
+Social self-esteem (rating 3.5): They are generally a positive approachable person who smiles frequently and doesn't struggle much with feeling out of place in social situations, showing good social self-esteem.
+
+Organization (rating 4.5): The individual has an organized work style and tries to keep things in order which is reflected both at home and in their remote professional setting.

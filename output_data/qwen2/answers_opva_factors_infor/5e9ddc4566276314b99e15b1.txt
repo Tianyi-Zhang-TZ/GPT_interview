@@ -1,0 +1,10 @@
+Conscientiousness: 4.5
+Extraversion: 3.7
+
+Explanation:
+
+Conscientiousness is rated higher because the person demonstrated responsibility, organization, persistence and attention to detail throughout their answers. For example, they managed organizational struggles related to equipment management, showed determination in finishing a marathon despite challenges, carefully considered decisions about professional relationships, and was meticulous during investigations as a school leader.
+
+Extraversion is slightly lower but still present due to the person's ability to connect with others socially (like bonding over poker and drinks), show empathy by lifting spirits of colleagues when needed, and enjoy social events. However, they also mentioned feeling uncomfortable in new social settings and shrinking their circle of friends for professional reasons, indicating a certain level of introversion or preference for more solitary activities.
+
+The ratings are averaged across all questions to give an overall score according to the HEXACO model factors.

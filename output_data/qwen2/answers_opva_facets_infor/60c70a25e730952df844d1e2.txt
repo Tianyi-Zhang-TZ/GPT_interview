@@ -1,0 +1,26 @@
+Diligence: 2.5  
+Perfectionism: 3.0  
+Prudence: 1.5  
+Social boldness: 2.0  
+Liveliness: 2.0  
+Sociability: 1.5  
+Social self-esteem: 3.0  
+Organization: 4.0 
+
+The individual's personality score based on the answers provided falls into this range:
+
+Diligence (rating): The person seems to have a moderate level of diligence as they are willing to push themselves despite finding tasks challenging but also show some reluctance, hence the rating is moderately low.
+
+Perfectionism (rating): There are indications that the individual pays attention to details and wants everything to be perfect. This suggests a relatively high degree of perfectionism.
+
+Prudence (rating): The individual's responses suggest they might act impulsively in certain situations based on their desires at work, indicating lower prudence levels.
+
+Social boldness (rating): The person is hesitant when being placed in unfamiliar social settings, suggesting less social boldness.
+
+Liveliness (rating): Though the person shows some signs of liveliness with enthusiasm towards activities involving children and depression relief, overall, it seems they are not overly lively or energetic.
+
+Sociability (rating): The individual doesn't seem to engage actively in after-work social events indicating somewhat low sociability scores. 
+
+Social self-esteem (rating): The person has an adequate sense of self-esteem but might struggle when placed in unfamiliar settings which affects their confidence, suggesting a moderate score.
+
+Organization (rating): The answers suggest that the individual tends to organize well and completes tasks efficiently, hence scoring higher on organization compared to other facets.

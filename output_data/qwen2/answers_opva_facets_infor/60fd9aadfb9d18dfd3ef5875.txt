@@ -1,0 +1,26 @@
+Diligence: 4.5  
+Perfectionism: 3.0  
+Prudence: 4.0  
+Social boldness: 2.5  
+Liveliness: 3.5  
+Sociability: 4.0  
+Social self-esteem: 3.0  
+Organization: 4.5  
+
+The rating system for the provided personality facets is as follows:
+
+Diligence (4.5): The individual has shown persistence and determination to complete tasks even when they seem challenging or difficult, and is willing to put in extra effort.
+
+Perfectionism (3.0): The person tends to strive for accuracy but occasionally struggles with perfectionism by not wanting to make mistakes due to overthinking the situation.
+
+Prudence (4.0): This individual exercises caution before acting impulsively, considering the long-term outcomes of their decisions or actions.
+
+Social boldness (2.5): While they have a tendency to talk and interact with others when comfortable, there's room for improvement in leading discussions or expressing themselves confidently in social settings.
+
+Liveliness (3.5): The person exhibits enthusiasm but could be seen as more laid-back during the work day which may indicate a need to maintain their energy levels throughout the day.
+
+Sociability (4.0): Generally enjoys being around people both inside and outside of work, indicating a strong social orientation.
+
+Social self-esteem (3.0): They feel uncomfortable in unfamiliar social settings but can project confidence when they're comfortable among familiar people.
+
+Organization (4.5): This individual has demonstrated skills in organizing tasks efficiently and effectively at work and in personal life.

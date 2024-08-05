@@ -1,0 +1,22 @@
+Here's a personality score based on the provided answers, using the HEXACO model:
+
+* **Social Boldness:** 2.0 
+    * The individual describes themselves as shy and preferring to listen in group discussions. They also mention feeling uncomfortable in new social situations. 
+* **Diligence:** 4.0
+    * The answers consistently highlight a strong work ethic, attention to detail, problem-solving skills, and a desire to complete tasks thoroughly and accurately.
+* **Prudence:** 3.5
+    * The individual demonstrates careful planning and consideration before acting, especially when it comes to potentially risky situations like asking for a raise. They value minimizing risk and thinking things through.
+* **Organization:** 3.0
+    *  The individual expresses a preference for order and efficiency, particularly in work settings. They describe themselves as methodical and striving to keep things in place.
+* **Liveliness:** 1.5
+    * The answers suggest a more introverted and reserved personality. They prefer solitary activities, are not naturally inclined to cheer others up, and seem uncomfortable with impulsive actions.
+* **Perfectionism:** 3.0
+    *  The individual expresses a dislike for making mistakes and a tendency to be meticulous and careful, especially in work-related tasks.
+* **Social Self-esteem:** 2.5
+    * While they feel uncomfortable in unfamiliar social situations, they mention feeling a bit better when interacting with their girlfriend's family. This suggests some level of self-confidence in familiar settings.
+* **Sociability:** 2.0
+    * The individual describes themselves as independent and introverted, preferring to spend time alone. They are selective about social events and tend to avoid situations where they feel uncomfortable.
+
+
+
+**Important Note:** These ratings are based on a limited set of responses and should not be taken as a definitive personality assessment. A comprehensive evaluation would require a more extensive and standardized testing process.

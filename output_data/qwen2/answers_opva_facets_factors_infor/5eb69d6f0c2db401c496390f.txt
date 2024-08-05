@@ -1,0 +1,10 @@
+Conscientiousness: 4.5
+Extraversion: 3.0
+
+Explanation:
+
+The Conscientiousness score is rated at 4.5 out of 5 because the individual consistently demonstrates qualities related to organization (Question 2), diligence (Question 4), and perfectionism (Question 6). These behaviors suggest a strong sense of responsibility, planning, attention to detail, and persistence in the face of challenges.
+
+The Extraversion score is rated at 3.0 out of 5 because while there are some instances where social interaction or energy seems to be present (such as during Question 1), other aspects like skipping after-work events (Question 5) indicate a more reserved nature. The individual's responses suggest they can navigate social settings but also require periods of rest and personal space.
+
+Overall, this person leans towards being conscientious with some levels of introversion or needing downtime to recharge.

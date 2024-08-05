@@ -1,0 +1,10 @@
+Conscientiousness: 4.5
+Extraversion: 3.5
+
+The person exhibits traits that are generally consistent with high levels of Conscientiousness and moderate levels of Extraversion.
+
+**Conscientiousness:** The individual is characterized by being organized, detail-oriented, hardworking, determined, and driven. These qualities manifest through behaviors like spending extra time ensuring everything was correctly placed in storage (Question 2), proving themselves when faced with challenges (Question 4), paying close attention to details while writing product descriptions (Question 6), and remaining positive during stressful times for the team (Question 7). These behaviors suggest a strong sense of responsibility, organization, and diligence.
+
+**Extraversion:** While the person displays some aspects of Extraversion through being friendly when in social settings (Question 1) and trying to make friends despite initial difficulties (Question 1), they also show signs of introversion by acknowledging their East Coast attitude makes it harder to approach people. They seem more reserved and introspective, as evidenced by spending time listening rather than leading during group discussions (Question 3). Additionally, there is a preference for introverted activities like writing about fashion instead of acting impulsively on workplace desires (Question 8). This suggests that they are generally comfortable in smaller social settings but can also be quite reserved when the situation demands.
+
+Overall, the individual's high levels of Conscientiousness and moderate levels of Extraversion indicate a strong work ethic, organizational skills, and a balanced approach to social interactions.

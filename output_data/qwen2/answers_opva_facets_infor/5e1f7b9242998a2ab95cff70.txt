@@ -1,0 +1,26 @@
+Diligence: 4.5
+Perfectionism: 3.0
+Prudence: 4.0
+Social boldness: 2.0
+Liveliness: 3.5
+Sociability: 2.5
+Social self-esteem: 3.0 
+Organization: 4.5
+
+This personality score is based on the individual's responses to the questions asked:
+
+**Diligence**: The person seems to have a strong work ethic and tends to put in extra effort when tasks become more complicated, suggesting high diligence.
+
+**Perfectionism**: There was no indication of perfectionism in the answers provided. The individual did not express concern about meticulous attention to details or striving for flawless outcomes.
+
+**Prudence**: They were cautious and thoughtful before acting impulsively on desires at work, showing a prudent nature.
+
+**Social boldness**: The person seemed uncomfortable in social settings where they didn't know others, avoiding extroverted behavior. This indicates low levels of social boldness.
+
+**Liveliness**: Despite their introversion, the individual was able to inject positivity into team settings when needed, indicating that they have some level of liveliness.
+
+**Sociability**: They preferred solitary tasks and were not enthusiastic about after-work social events, suggesting lower sociability. 
+
+**Social self-esteem**: The person felt uncomfortable in unfamiliar social situations but managed through them, which indicates moderate levels of social self-esteem.
+
+**Organization**: Based on their responses to questions regarding inventory management and workplace organization, the individual has a high level of organizational skills.

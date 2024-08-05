@@ -1,0 +1,35 @@
+Diligence: 8
+
+Perfectionism: 7
+
+Prudence: 9
+
+Social boldness: 2
+
+Liveliness: 6
+
+Sociability: 3
+
+Social self-esteem: 5
+
+Organization: 8
+
+Explanation:
+
+Diligence: The individual is detail-oriented and meticulous, suggesting a high level of diligence. They excel in tasks that require attention to details.
+
+Perfectionism: They are driven by perfectionism when dealing with details as shown in the situation where they analyze numbers daily and ensure their accuracy.
+
+Prudence: With a rating of 9, this shows that the individual is highly prudent. They tend not to act impulsively but think through decisions carefully before acting, aligning well with the facet of prudence.
+
+Social boldness: Their social discomfort suggests a lower level of social boldness, rated at 2.
+
+Liveliness: While they can provide praise and uplift others' spirits when they feel comfortable doing so, their overall rating for liveliness is moderate (6), indicating they may not be the most energetic or spontaneous individuals in social settings.
+
+Sociability: Given that they don't tend to socialize with colleagues much, their sociability score is low at 3.
+
+Social self-esteem: The individual seems confident enough to identify and articulate personal traits but could benefit from higher levels of social engagement for a more robust sense of social self-esteem (5).
+
+Organization: Since they are meticulous in tasks requiring attention to detail, this facet scores high (8) as organization aligns well with their personality traits.
+
+Overall, the ratings reflect a highly organized, diligent and perfectionistic individual who values careful thought before acting but may struggle with social situations that require extroversion or impulsive behavior.

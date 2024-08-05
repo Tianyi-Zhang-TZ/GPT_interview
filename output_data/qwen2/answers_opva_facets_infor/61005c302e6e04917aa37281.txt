@@ -1,0 +1,26 @@
+Diligence: 4.0  
+Perfectionism: 3.5 
+Prudence: 4.0 
+Social boldness: 2.0 
+Liveliness: 1.5  
+Sociability: 2.0 
+Social self-esteem: 3.0 
+Organization: 4.0 
+
+Reasoning:
+
+Diligence: The individual showed strong diligence, especially in a challenging work scenario and when facing responsibilities like managing multiple tasks simultaneously.
+
+Perfectionism: The person displayed a moderate level of perfectionism, as seen from being careful to avoid mistakes during detail-oriented tasks at their job.
+
+Prudence: They demonstrated good prudence by considering consequences before acting impulsively and preferring thoughtful action over immediate responses.
+
+Social boldness: This facet was rated low because the individual described themselves as more of a follower in social settings rather than taking the lead.
+
+Liveliness: Their liveliness score is relatively low, suggesting that they might find it hard to lift others' spirits or engage actively in social events.
+
+Sociability: The person scored moderately on sociability, indicating a tendency towards introversion and not frequent social engagements after work.
+
+Social self-esteem: They showed moderate levels of social self-esteem by being cautious about their appearance and actions during unfamiliar social settings like college.
+
+Organization: Their organization skills were rated highly due to the careful handling of equipment at work and maintaining attention to detail in various tasks.

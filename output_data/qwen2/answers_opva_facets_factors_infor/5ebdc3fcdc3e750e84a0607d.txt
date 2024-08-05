@@ -1,0 +1,10 @@
+Conscientiousness: 4.5  
+Extraversion: 3  
+
+Explanation:
+
+**Conscientiousness**: The person exhibits strong traits related to organization, diligence, attention to detail, and planning ahead (questions #2, #4, and #6). They take initiative when needed, show persistence in difficult tasks, and strive for perfection. These behaviors align with the higher end of the conscientiousness spectrum.
+
+**Extraversion**: The person appears somewhat reserved in self-disclosure (question #5), showing some shyness around social events that involve alcohol or occur on Fridays. They also demonstrate a thoughtful approach to helping others when their team members are feeling down, which could be seen as an introverted response to supporting colleagues emotionally rather than acting extrovertedly themselves. This suggests they may not prioritize extraversion highly.
+
+Overall, the person leans slightly more towards being conscientious than extraverted, with strengths in responsibility and self-discipline but showing a preference for introspection and careful consideration over outgoing social interactions.

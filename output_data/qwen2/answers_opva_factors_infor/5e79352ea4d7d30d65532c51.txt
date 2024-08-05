@@ -1,0 +1,11 @@
+Conscientiousness: 4.5 
+
+Extraversion: 3.8  
+
+Explanation:
+
+Conscientiousness is rated as a moderate to high trait based on the given answers. Questions related to conscientious traits (Q2, Q6) showcase responsibility and organization when it comes to handling tasks or equipment. Additionally, question 7 demonstrates empathy towards others, indicating care for their wellbeing which aligns with conscientiousness. The rating is slightly lower due to occasional hints of not being as organized ("I do like reading the large box to text if you know it in one sitting so it's not really a problem for me") and occasionally acting on impulse ("I'm not an impulsive person" but there seems to be room for improvement when it comes to planning and thoughtfulness).
+
+Extraversion is rated as moderate based on interactions with others (Q5, Q7, Q8). Questions highlight the ability to connect with colleagues and friends, express emotions openly, and enjoy social events. The rating is slightly lower due to not consistently showcasing a strong desire for social interaction or high energy in social settings ("Just want" vs "push myself") which could indicate more reserved behavior in some scenarios.
+
+Overall, the individual displays traits of conscientiousness like responsibility, organization, and empathy towards others while showing moderate levels of extraversion through engaging with colleagues and friends. There is a mix of proactive decision-making (Q6) and planning ahead (Q8), suggesting that while not completely impulsive, there may be room for improvement in balancing spontaneity with careful consideration.

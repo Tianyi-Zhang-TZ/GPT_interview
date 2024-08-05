@@ -1,0 +1,16 @@
+Conscientiousness: 4.5 
+Extraversion: 3.8 
+
+Explanation:
+
+Based on the answers provided, the individual scores high in Conscientiousness and medium-high in Extraversion.
+
+Regarding Conscientiousness (1.0 - 5.0 scale):
+- The person exhibits traits such as organization ("Organization" facet), diligence ("Diligence" facet), social boldness ("Social boldness" facet), attention to detail ("Perfectionism" facet), and sociability ("Sociability" facet). They are proactive in managing their responsibilities, efficient in handling tasks requiring focus on details, and capable of leading teams. These traits align well with high levels of Conscientiousness.
+- The score is slightly adjusted downwards due to some signs of not acting impulsively ("Prudence" facet), which indicates they might be somewhat cautious or methodical rather than consistently demonstrating the full range of characteristics typically associated with Conscientious individuals.
+
+Regarding Extraversion (1.0 - 5.0 scale):
+- The person scores medium-high on Extraversion based on their ability to make friends easily, being outgoing and outspoken, leading groups in discussions, enjoying social events, showing liveliness when it comes to supporting team morale, and having a good time with colleagues.
+- However, they also display traits that suggest some level of prudence or caution ("Prudence" facet), which can indicate moderation rather than consistently high levels of extraversion.
+
+In summary, the person demonstrates strong organizational skills, diligence, social boldness, attention to detail, sociability and liveliness. They might have a slightly cautious approach at times, which reduces their overall Conscientiousness score compared to someone who displays all traits fully within this trait cluster. Their Extraversion level is characterized by being outgoing, expressive, and engaging in social settings but shows some tendency towards caution when making decisions or acting on impulses.

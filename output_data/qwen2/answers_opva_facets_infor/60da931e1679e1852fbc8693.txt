@@ -1,0 +1,26 @@
+Diligence: 3.5
+Perfectionism: 4.0
+Prudence: 3.0
+Social boldness: 2.5
+Liveliness: 4.0
+Sociability: 1.5
+Social self-esteem: 3.0 
+Organization: 4.5
+
+This rating system is based on the information provided by the answers to each question.
+
+Diligence (Question 4): The individual described themselves as being able to push themselves harder when the task was of personal interest or motivation, but not necessarily when it wasn't aligned with their preferences or interests. This suggests an average level of diligence where they are more likely to exert effort based on internal motivation rather than consistently across all tasks.
+
+Perfectionism (Question 6): The individual mentioned that when attention to details is required, they focus intensely and strive for the best outcome fearing mistakes. This reflects a high level of perfectionism as it's related to the fear of making errors and the need to be meticulous in their work.
+
+Prudence (Question 8): While the individual acknowledged being shy and standoffish with impulses at work, this suggests a moderate level of prudence since they are aware of their tendency to avoid acting on them. However, there was also an underlying suggestion for improvement as they're working on controlling such impulses.
+
+Social boldness (Question 3): The person described themselves in situations where they could lead discussions by being talkative and sharing ideas; however, when they felt uncomfortable with people or didn't know them well, their behavior changed. This implies a moderate level of social boldness which varies based on familiarity with others.
+
+Liveliness (Question 7): The individual demonstrated an ability to boost spirits, showing high liveliness as they are empathetic and can understand emotions effectively.
+
+Sociability (Question 5): Although the person enjoyed alone time and was introverted, they attended after-work social events when expected by employers. This suggests a somewhat low level of sociability, indicating that while not avoiding social situations altogether, they prefer solitude.
+
+Social self-esteem (Question 1): The individual identified as being generally introverted and shy in unfamiliar social settings, reflecting a moderate level of social self-esteem based on their awareness and acceptance of their personality traits.
+
+Organization (Question 2): When asked about organizing equipment after use, the person showed a high tendency for organization due to their proactive behavior of putting things back in place. This demonstrates strong organizational skills.

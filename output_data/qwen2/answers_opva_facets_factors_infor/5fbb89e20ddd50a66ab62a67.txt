@@ -1,0 +1,10 @@
+Conscientiousness: 4.3  
+Extraversion: 3.7 
+
+The scores are based on the provided answers to questions that reflect personality traits within the HEXACO model.
+
+**Conscientiousness** is rated high, primarily due to behaviors indicating strong organization (Question 2), diligence in tackling challenging tasks (Question 4), attention to detail (Question 6), and the ability to maintain a positive atmosphere for team members when they are feeling down (Question 7).
+
+**Extraversion** shows moderate levels based on the tendency to force conversation when uncomfortable with peers at social events (Question 1), attending after-work social events despite initial reluctance, enjoying seeing people outside of work settings, and using humor as a method for lifting spirits (Question 5 & Question 8). The rating is not high because the answers do not strongly indicate an outgoing or engaging personality in all circumstances.
+
+These ratings are based on the given information and assumptions about how each question relates to specific facets within the HEXACO model.

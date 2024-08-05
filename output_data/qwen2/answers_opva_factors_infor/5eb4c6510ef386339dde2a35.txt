@@ -1,0 +1,10 @@
+Conscientiousness: 4.5 
+Extraversion: 3.2 
+
+Explanation:
+
+- Conscientiousness is rated as a high score due to the emphasis on responsibility, attention to detail, and planning shown in questions related to organization (Question 2), decision-making under pressure (Question 4), adherence to rules or tasks that require focus on details (Question 6), and team support (Question 7). These behaviors align with traits of being organized, reliable, and thorough.
+
+- Extraversion is given a moderate score because the individual seems to prefer solitude but can engage in social activities when necessary. They are introspective and careful about their social interactions, indicating they might not be the most outgoing person but still have the ability to connect with others (Questions 1, 3, and 5). The context of these answers suggests a somewhat reserved personality type who values privacy or solitude but is capable of engaging in social settings when required.
+
+- Both scores are averaged rather than question-specific because the responses don't show extreme behaviors that would warrant full scores on either factor. Instead, they reflect balanced traits typical of individuals with average levels of conscientiousness and extraversion.

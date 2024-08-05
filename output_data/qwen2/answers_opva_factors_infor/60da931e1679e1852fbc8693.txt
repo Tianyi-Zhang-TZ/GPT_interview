@@ -1,0 +1,10 @@
+Conscientiousness: 4.2 
+Extraversion: 3.8 
+
+Explanation:
+
+Conscientiousness is rated as moderately high because the individual consistently demonstrates responsibility, attention to detail, and a willingness to work hard in challenging situations (questions 2, 6). They show a preference for organization and respect towards others' needs, indicating strong planning and organizational skills.
+
+Extraversion is given a moderate rating due to the individual's comfort in leadership roles when familiar with people (question 3) but also displays introverted tendencies by preferring alone time and being comfortable with leading when they feel at ease (also question 3). They are empathetic and can motivate others, which aligns with high extraversion scores in social situations (question 5), yet their tendency to avoid social events suggests a more reserved personality.
+
+In summary, the individual leans towards being conscientious but also shows introverted traits that impact their overall score for Extraversion.

@@ -1,0 +1,33 @@
+Diligence: 4.5
+
+This personality score is based on the traits displayed in responses to questions related to persistence when facing challenging tasks and the effort put into completing tasks themselves, even if it involves personal discomfort or stress.
+
+Perfectionism: 3.0
+
+The rating indicates a moderate level of concern about details and avoiding mistakes, as seen in the response regarding attention to detail in task completion.
+
+Prudence: 2.5
+
+This score reflects a balanced approach when deciding whether to act on an impulse for work-related goals. The individual doesn't seem overly impulsive but also doesn't always suppress desires, suggesting a moderate level of prudence.
+
+Social boldness: 4.0 
+
+The high rating is due to the willingness to take action to support and encourage colleagues during tough times and actively participate in after-work social events when interested.
+
+Liveliness: 3.5
+
+The score indicates an ability to sense and respond to others' emotional needs, showing empathy and care for team members while maintaining a respectful work environment.
+
+Sociability: 4.0 
+
+Highly rated based on the desire to engage with colleagues personally and professionally, facilitating networking and building relationships that are beneficial both socially and in terms of professional development.
+
+Social self-esteem: 3.5
+
+Reflects confidence in interpersonal interactions and ability to understand one's role within a team or social setting while maintaining an open and approachable demeanor.
+
+Organization: 4.0 
+
+The individual demonstrates proactive planning, attention to detail, and the ability to manage tasks efficiently through comments about approaching deadlines early and considering the Pareto Principle for prioritization.
+
+These ratings are based on overarching characteristics that can be derived from the given responses, rather than specific instances cited within each question.

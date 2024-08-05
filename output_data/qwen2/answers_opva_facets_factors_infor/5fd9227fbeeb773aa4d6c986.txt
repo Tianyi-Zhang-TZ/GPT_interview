@@ -1,0 +1,20 @@
+Conscientiousness: 4.5  
+Extraversion: 2.8  
+
+Explanation:
+
+For Conscientiousness (ranging from 1 to 5):
+- Social self-esteem, which is related to the feeling of self-worth in social situations, seems like a good fit for assessing conscientious traits. The individual described how they initially felt uncomfortable but adapted and eventually became more comfortable over time, indicating planning and organization skills.
+- Organization was mentioned as the ability to manage tasks efficiently with attention to detail. The response aligns well with this trait, especially when considering their meticulous nature in managing a video project within constraints.
+- Diligence refers to being diligent and focused on one's work despite challenges or distractions. This was shown through their determination to avoid mistakes under time pressure.
+- Perfectionism involves striving for excellence and perfection in work output. The individual's focus on minimizing errors suggests an alignment with this trait.
+- Liveliness is about showing enthusiasm, energy, and being motivated towards group activities. Their effort to lift team spirits aligns well with a high score for liveliness.
+- Prudence relates to exercising self-control, particularly in the face of personal desires versus ethical concerns. The decision not to act on an impulse when it came to taking something from work indicates high prudence.
+
+Conscientiousness is rated as 4.5 because the individual displayed traits related to planning, organization, diligence, perfectionism, and liveliness across different scenarios.
+
+For Extraversion (ranging from 1 to 5):
+- The responses regarding social events showed a preference for solitude or introversion rather than engaging in social activities. This suggests that they are somewhat reserved or introspective.
+- However, there were instances of attempting to raise spirits within the team, which could indicate some level of extroverted behavior when necessary.
+
+Extraversion is rated as 2.8 because while there are occasional signs of extroverted tendencies in certain situations like trying to boost team morale, they predominantly seem introverted and value solitude or quiet reflection.

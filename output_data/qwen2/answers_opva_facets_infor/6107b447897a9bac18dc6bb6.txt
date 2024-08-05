@@ -1,0 +1,31 @@
+Diligence: 8
+
+Reason: The individual is described as paying attention to details and writing everything down, indicating diligence in their work tasks.
+
+Perfectionism: 7
+
+Reason: Though the individual was nervous about making mistakes during a project, they were also meticulous about ensuring nothing important would be missed. This shows a high level of concern for perfection, even if it leads to anxiety.
+
+Prudence: 6 
+
+Reason: The person is cautious about their interactions with colleagues and does not force conversations when they sense discomfort or uncertainty in the situation.
+
+Social boldness: 3
+
+Reason: The individual does not go out of their way to meet new people and tends to stick with those who make them comfortable, suggesting a lack of initiative to break into unfamiliar social circles.
+
+Liveliness: 5
+
+Reason: Although not explicitly described as particularly lively or energetic in this context, the person does try to raise spirits when needed, showing they can be proactive about social interactions without overwhelming others.
+
+Sociability: 6
+
+Reason: While comfortable with certain individuals and willing to engage with them, the individual seems hesitant to step out of their comfort zone and meet new people. This suggests moderate sociability rather than extroversion or introversion.
+
+Social self-esteem: 7 
+
+Reason: The person appears to have a stable sense of social self-worth but might lack confidence in breaking into unfamiliar social settings.
+
+Organization: 8
+
+Reason: Being meticulous about details during work tasks and writing everything down shows a high level of organizational skills, as well as attention to efficiency and effectiveness.

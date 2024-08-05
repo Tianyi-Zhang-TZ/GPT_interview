@@ -1,0 +1,28 @@
+Diligence: 3.5
+Perfectionism: 2.0
+Prudence: 4.5
+Social boldness: 1.5
+Liveliness: 1.5
+Sociability: 3.0
+Social self-esteem: 3.0 
+Organization: 4.0 
+
+Reasoning:
+
+Diligence (rating): The individual described a situation where they found themselves in challenging tasks and decided to push through with them instead of leaving the task or passing it on, indicating a moderate level of diligence.
+
+Perfectionism (rating): The person mentioned struggling with details and choosing the right interpretation tools which could be a sign of perfectionism but wasn't extremely critical about errors, giving this facet a lower rating.
+
+Prudence (rating): When faced with an opportunity to pursue something they wanted badly at work, the individual did not act on impulse due to the limitations set by their circumstances. This demonstrates a prudential approach in decision-making, hence the higher rating.
+
+Social boldness (rating): The individual described being slightly shy and preferred to be more outgoing but didn't always manage to achieve this level of social boldness at social events, thus scoring lower for this facet.
+
+Liveliness (rating): When their team members were feeling down, they expressed dislike towards micromanagement and independent work over teamwork. This indicates a somewhat low liveliness in situations requiring team spirit or emotional support.
+
+Sociability (rating): The person did partake in after-work social events but only when the event was enjoyable for them, suggesting that they are relatively selective about their engagements and not very expansive in sociable activities, leading to this moderate rating.
+
+Social self-esteem (rating): The individual talked about feeling uncomfortable in certain social settings due to unfamiliarity, which implies lower social self-esteem scores since this is a reflection of their confidence within new social environments.
+
+Organization (rating): The person showed efficiency in organizing equipment at work, indicating they were highly organized and detail-oriented for this task. Hence the high rating.
+
+This overall assessment considers how each facet was represented across multiple questions to provide an aggregate score for the individual's personality based on the HEXACO model.

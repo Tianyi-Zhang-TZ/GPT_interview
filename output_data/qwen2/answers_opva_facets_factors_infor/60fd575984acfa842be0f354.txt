@@ -1,0 +1,31 @@
+Conscientiousness: 4.5
+Extraversion: 3.7
+
+Justification:
+
+**Conscientiousness (ranging from 1 - 5):**
+
+- **Social self-esteem:** The answer shows a high level of comfort and ease in social situations, indicating strong social self-esteem. This facet is rated highly because the individual described feeling comfortable even when they didn't know others.
+
+- **Organization:** The person cares deeply about maintaining order and cleanliness, showing a strong organizational trait. However, they also admitted to sometimes leaving things out due to urgency, which indicates some flexibility or lack of strict adherence in all situations. This facet is rated highly but slightly lower than the social self-esteem facet due to this flexibility.
+
+- **Social boldness:** The individual described being willing to take leadership roles when appropriate, demonstrating confidence and assertiveness. However, they also mentioned taking a step back based on the situation which introduces some level of adaptability and not always needing to lead. This is rated as high but slightly less than social self-esteem due to the consideration of other factors.
+
+- **Diligence:** The person was open about potentially asking for help when overwhelmed or unsure, showing flexibility in their approach towards tasks that are challenging. However, they also mentioned a preference to 'fake it till you make it' which introduces an element of prudence rather than pure diligence. This facet is rated slightly lower than social self-esteem but still quite high.
+
+- **Sociability:** The individual expressed enthusiasm for after-work events and a desire to connect with colleagues on more personal levels, indicating strong sociability. This facet receives the highest rating due to their clear enjoyment of such interactions.
+
+- **Perfectionism:** The person acknowledged feeling nervous about details and seeking reassurance from others, showing attention to detail but also an element of anxiety. This trait is rated slightly lower than social self-esteem but still quite high due to their carefulness with tasks requiring attention to detail.
+
+- **Liveliness:** Though the answer was not as detailed for this facet, it can be inferred that the person's approach towards team members feeling down suggests they are able to connect and comfort others when necessary. This trait receives a moderate rating based on the provided information.
+
+**Extraversion (ranging from 1 - 5):**
+
+- **Sociability:** Given their expressed enthusiasm for social events and willingness to talk to new people, this facet is rated quite high, matching the description of someone who enjoys being around others.
+
+- **Social self-esteem**: The level of comfort described in social situations might be seen as a reflection of extraversion, as it involves confidence when engaging with others. This trait receives a moderate rating because while they are comfortable socially, their answer did not strongly emphasize an extraverted personality trait directly related to this facet.
+
+The overall Conscientiousness rating is influenced by the high scores on social self-esteem and organization, reflecting a strong sense of responsibility towards tasks and interactions. The Extraversion rating reflects an inclination towards social activities but with some elements of introspection or reflection mixed in (as seen in the consideration of others' feelings), suggesting a balanced personality that is not purely focused on extroversion.
+
+**Final Conscientiousness Rating:** 4.5
+**Extraversion Rating:** 3.7

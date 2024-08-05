@@ -1,0 +1,26 @@
+Diligence: 4.0  
+Perfectionism: 3.5  
+Prudence: 2.0  
+Social boldness: 1.5  
+Liveliness: 2.5  
+Sociability: 2.0  
+Social self-esteem: 3.0  
+Organization: 4.0  
+
+The personality score is calculated by considering the given answers and their implications based on the HEXACO model:
+
+Diligence: The individual shows a strong sense of diligence, especially when under pressure or facing challenges.
+
+Perfectionism: There's an inclination towards perfectionism as they pay close attention to details in tasks requiring meticulousness.
+
+Prudence: This facet is rated low because the individual avoids acting on impulse and prefers focusing on their work before addressing personal needs.
+
+Social boldness: The score for social boldness is relatively low, given that the person tends to be shy and reserved when interacting with others.
+
+Liveliness: Although they show some empathy and emotional sensitivity by trying to uplift team members who are feeling down, this facet doesn't rate as high as their ability to focus on details or diligence in work tasks.
+
+Sociability: The individual appears somewhat sociable but prefers smaller groups where they feel more comfortable. There's no strong inclination towards seeking out new social events unless familiar with attendees beforehand.
+
+Social self-esteem: This facet is rated moderately, as the person acknowledges their discomfort in unfamiliar social situations and seeks reassurance by being with people who already know them.
+
+Organization: The individual demonstrates high organization skills since they are meticulous about keeping things in order even when not instructed to do so.

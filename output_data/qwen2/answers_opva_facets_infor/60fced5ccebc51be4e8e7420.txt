@@ -1,0 +1,26 @@
+Diligence: 4.5
+Perfectionism: 3.5
+Prudence: 4.0
+Social boldness: 4.5
+Liveliness: 2.5
+Sociability: 4.5
+Social self-esteem: 4.5
+Organization: 4.0
+
+Explanation:
+
+Diligence - The individual demonstrates a strong work ethic, is willing to push themselves for challenges and isn't afraid of pressure or tasks that require hard work.
+
+Perfectionism - They are thorough in their actions but not overly so; they understand the point at which perfectionism could become counterproductive in certain situations like teamwork.
+
+Prudence - This person considers consequences before acting impulsively and prefers planning out significant decisions, showing a cautious approach.
+
+Social boldness - The individual is comfortable stepping into unfamiliar social settings and actively seeks to engage with others, showing confidence and a proactive attitude.
+
+Liveliness - While not overly lively in nature, they are capable of using humor and food as tools for mood improvement but seem more reserved when it comes to spontaneous behavior.
+
+Sociability - They enjoy being part of group events and prioritize building relationships with colleagues, which impacts their professional environment positively.
+
+Social self-esteem - The individual seems confident in social settings, enjoys networking with peers and is comfortable stepping out of their comfort zone.
+
+Organization - They show a tendency towards organization, particularly when working collaboratively but might sometimes struggle to balance perfectionism that could impede teamwork dynamics.

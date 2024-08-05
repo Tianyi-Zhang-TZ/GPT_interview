@@ -1,0 +1,26 @@
+Diligence: 4.5
+Perfectionism: 3.5
+Prudence: 4.0
+Social boldness: 2.5
+Liveliness: 3.0
+Sociability: 3.5
+Social self-esteem: 3.0
+Organization: 4.5
+
+Explanation:
+
+Diligence: The person is very diligent and persistent in their tasks, as shown by their willingness to do extra research or ask for assistance if needed.
+
+Perfectionism: They are somewhat perfectionistic but not extremely so, as they acknowledge that errors can be missed even with self-checks.
+
+Prudence: The individual exercises caution before making decisions, considering all pros and cons and seeking advice when necessary.
+
+Social boldness: The person appears more introverted or reserved in social settings, preferring to use their limited energy efficiently during work hours. They do attend social events but are conscious of how much they can handle.
+
+Liveliness: They have the ability to find a positive perspective even when others might be feeling down, which could indicate liveliness.
+
+Sociability: Although they tend to conserve their energy for social interactions at work, they still attend some after-work events and value rapport with colleagues. 
+
+Social self-esteem: The person seems aware of their introverted nature but is okay with it as long as it doesn't affect their ability to perform well in work situations.
+
+Organization: They exhibit good organizational skills, both by being detail-oriented themselves and also being adept at spotting errors in others' work.

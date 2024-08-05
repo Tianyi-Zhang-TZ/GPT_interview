@@ -1,0 +1,26 @@
+Diligence: 4.5
+Perfectionism: 3.0
+Prudence: 4.5
+Social boldness: 2.5
+Liveliness: 3.5
+Sociability: 4.0
+Social self-esteem: 2.5
+Organization: 3.5
+
+Explanation:
+
+Diligence (rating): The individual is diligent and determined when faced with challenging tasks, showing a high degree of commitment to completing them. This aligns well with a strong score on Diligence.
+
+Perfectionism (rating): While the person does care about organization and cleanliness in their environment, they do not exhibit perfectionistic tendencies across all aspects of their life. Therefore, I rate Perfectionism as average.
+
+Prudence (rating): The individual seems to think through decisions carefully before acting, indicating a high degree of prudence. This is reflected by the higher rating given to Prudence.
+
+Social boldness (rating): Despite having moments when they might express themselves loudly and assertively in certain settings, there are instances where they feel timid or introverted in social situations. Thus, Social Boldness receives an average score.
+
+Liveliness (rating): The person is able to bring humor and joy into situations outside of work, showing that they can be lively when appropriate. This scores higher on the Liveliness facet.
+
+Sociability (rating): They actively seek out opportunities to connect with colleagues in a social setting, which indicates high sociability. Hence, this receives a high rating.
+
+Social self-esteem (rating): Their experience in college shows discomfort in unfamiliar social situations, implying lower levels of social self-esteem when not familiar with others.
+
+Organization (rating): The individual is organized in their personal environment but struggles to keep track of items at work, which is why Organization scores medium.

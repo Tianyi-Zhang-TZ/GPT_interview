@@ -1,0 +1,42 @@
+Diligence: 3.5
+
+The person in the answer is quite driven when it comes to focusing on tasks, trying to go as fast as possible and aiming for quick completion if they set goals with rewards. However, there's also a hint of impulsivity shown by their decision to drive for a cab company despite knowing that regulars would pay them upfront for multiple trips.
+
+Perfectionism: 3
+
+There is an element of precision and accuracy in the work environment as highlighted when they mention working on data processing tasks where mistakes could impact the system. However, there's also some flexibility shown by not taking double payment from a cab driver despite being tempted to do so.
+
+Prudence: 2.5
+
+The person seems somewhat hesitant around after-work social events but can still engage in entertaining behavior. This shows mixed levels of prudence and spontaneity.
+
+Social boldness: 3
+
+When faced with challenges, the individual steps up to take leadership roles within groups, as shown by trying to get everyone on the same page during a workshop activity at General Motors.
+
+Liveliness: 2
+
+The person's response doesn't provide clear evidence of high liveliness or enthusiasm. There is an inclination towards quietness and introspection unless they are willing to engage in social events.
+
+Sociability: 3
+
+There is a recognition for the importance of teamwork and working well with others, as seen when hiring decisions were based on cohesive team dynamics at General Motors.
+
+Social self-esteem: 3
+
+The individual acknowledges their insecurities about public speaking abilities which affects their self-esteem in certain situations like orientation events or introducing themselves to new people.
+
+Organization: 4
+
+There's a strong emphasis on the importance of organization and taking care of tasks promptly. The person values having an empty workspace to start the day, implying efficiency and orderliness in their work habits.
+
+Overall ratings are as follows:
+
+Diligence: rating = 3.5 
+Perfectionism: rating = 3
+Prudence: rating = 2.5 
+Social boldness: rating = 3 
+Liveliness: rating = 2
+Sociability: rating = 3 
+Social self-esteem: rating = 3  
+Organization: rating = 4

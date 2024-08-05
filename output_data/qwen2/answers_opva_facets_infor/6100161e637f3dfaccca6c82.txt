@@ -1,0 +1,26 @@
+Diligence: 4.5
+Perfectionism: 3.0
+Prudence: 2.5
+Social boldness: 3.5
+Liveliness: 2.0
+Sociability: 4.0
+Social self-esteem: 4.0 
+Organization: 4.5
+
+Explanation:
+
+Diligence: The individual shows a strong willingness to push themselves harder in challenging situations and does not shy away from difficult tasks, suggesting high diligence.
+
+Perfectionism: There's some attention for detail but the person doesn't always insist on perfection, indicating moderate levels of perfectionism.
+
+Prudence: The person seems somewhat cautious in decision-making processes involving impulses or immediate gratification at work, showing moderately prudent behavior. 
+
+Social boldness: While they might feel pushed to be more outgoing in unfamiliar social settings due to a lack of acquaintances, their overall level of boldness is moderate.
+
+Liveliness: The individual doesn't actively seek out opportunities to boost others' spirits during tough times, indicating lower levels of liveliness.
+
+Sociability: They enjoy participating in after-work events and are open to bonding with colleagues outside work settings, which shows higher sociability.
+
+Social self-esteem: The person is likely comfortable engaging with new people in social settings despite any initial discomfort, suggesting high levels of social self-esteem.
+
+Organization: The individual is generally organized at their workplace, managing tasks effectively and putting things back in order after use, indicating strong organizational skills.

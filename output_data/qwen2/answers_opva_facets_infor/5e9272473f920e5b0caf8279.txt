@@ -1,0 +1,26 @@
+Diligence: 4.5
+Perfectionism: 3.5  
+Prudence: 2.5  
+Social boldness: 2.0  
+Liveliness: 3.0  
+Sociability: 1.5   
+Social self-esteem: 4.0 
+Organization: 4.0  
+
+This personality score is based on the answers provided to questions related to each facet of the HEXACO model:
+
+Diligence: The individual demonstrated a strong work ethic and persistence in challenging situations, such as rebooking passengers for a cruise and handling a plane cancellation. This aligns with Diligence.
+
+Perfectionism: Although not consistently shown throughout the responses, there was an instance of attention to detail when dealing with data entry for Apple Inc., which reflects some aspect of Perfectionism.
+
+Prudence: The person tends to avoid work social events and often prioritizes personal boundaries over professional relationships at such occasions. This suggests a somewhat cautious approach in social situations, corresponding with Prudence.
+
+Social boldness: There was little evidence of bold or assertive behavior during group discussions or other social situations. The individual seemed more inclined towards listening rather than leading, suggesting lower scores on Social Boldness.
+
+Liveliness: The individual showed empathy for colleagues who were feeling down but did not engage much in raising spirits themselves or initiating such interactions. This correlates with a moderate level of Liveliness.
+
+Sociability: There was minimal participation and interaction at work social events; the person tended to keep personal life separate from professional responsibilities, indicating low scores on Sociability.
+
+Social self-esteem: The person seemed confident in their abilities during challenging tasks, particularly when it came to handling unexpected situations like rebooking passengers for a cruise. This suggests a healthy level of Social Self-Esteem.
+
+Organization: The individual demonstrated good organizational skills by keeping track of available equipment and managing tasks efficiently at work, which aligns with high scores on Organization.

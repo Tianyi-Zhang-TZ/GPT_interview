@@ -1,0 +1,22 @@
+Here's a personality score rating based on the provided answers, using the HEXACO model:
+
+* **Social Boldness:** 2.5 
+    * The individual seems somewhat hesitant in new social situations, as evidenced by their initial discomfort at the "go to" program. However, they do mention getting better over time and seeking out connections with people of color and in business. 
+* **Diligence:** 4.0
+    *  The internship experience highlights their strong work ethic. They acknowledge struggling with the sales task but demonstrate persistence by seeking help, dedicating extra time, and ultimately mastering the material.
+* **Prudence:** 3.5
+    *  The individual seems thoughtful and considers the potential impact of their actions. While they wouldn't necessarily act impulsively, they are open to taking calculated risks if the situation warrants it.
+* **Organization:** 2.0
+    * The answer regarding work equipment suggests a tendency towards disorganization. They mention clearing history sometimes but not always, and the overall description lacks a strong emphasis on meticulousness.
+* **Liveliness:** 3.0
+    *  While not explicitly outgoing, the individual shows a willingness to help a struggling coworker and seems capable of lifting spirits. Their description leans towards being more introverted than extroverted.
+* **Perfectionism:**  N/A
+    * The provided answer for this question is incomplete, making it impossible to assess this facet.
+* **Social Self-Esteem:** 2.0
+    * The individual expresses feeling uncomfortable in unfamiliar social settings, suggesting some insecurity in social situations. They also mention feeling like they "wasted an opportunity" at the "go to" program, indicating potential self-criticism.
+* **Sociability:** 2.0
+    * They describe themselves as a "very private person" and prefer to keep work and personal life separate. They decline most after-work social events and don't seem to actively seek out social interaction.
+
+
+
+**Important Note:** These ratings are based on a limited set of responses and should be treated as a preliminary assessment. A more comprehensive evaluation would require a wider range of questions and potentially standardized personality tests. 

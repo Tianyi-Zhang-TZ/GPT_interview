@@ -1,0 +1,10 @@
+Conscientiousness: 4.5  
+Extraversion: 3.5 
+
+Explanation:
+
+Conscientiousness is rated high as the individual displays traits such as organization, diligence, and attention to detail in their answers. They are proactive when facing challenging tasks, seek out information for self-learning, and focus deeply on details. This suggests a strong sense of responsibility and reliability.
+
+Extraversion is given a moderate rating because while they exhibit social behaviors like reaching out to others when feeling uncomfortable or inviting them to events, these actions seem more as coping strategies than spontaneous or outgoing behavior characteristic of high extraversion scores. Their responses also indicate that they can be introspective and reserved in certain situations (as seen with their preference for listening roles over leading ones), suggesting that they may not engage actively or energetically with social environments on a regular basis.
+
+The rating is based on the individual's demonstrated behaviors across multiple scenarios, focusing on traits aligned with each factor of the HEXACO model rather than assigning scores per question.

@@ -1,0 +1,10 @@
+Conscientiousness: 4.5 
+Extraversion: 3.5 
+
+Explanation:
+
+Conscientiousness is rated at 4.5 because the individual consistently demonstrated traits aligned with this personality factor, such as being responsible and diligent in managing equipment cleanliness and organization, handling challenging tasks without shirking responsibility, providing professional conduct, and effectively addressing morale issues within a team.
+
+Extraversion is rated at 3.5 due to mixed behaviors that align both with introverted and extroverted traits. The individual displayed social skills when meeting new people in uncomfortable settings, was involved in group discussions but tended to adopt a wait-and-see attitude rather than leading, and was content attending after-work social events despite personal preferences. There were also instances of engaging in nightlife activities in their 40s.
+
+The ratings are based on the overall behavior described across multiple scenarios that collectively reflect each individual's personality traits according to the HEXACO model.

@@ -1,0 +1,20 @@
+Diligence: 3.5  
+Perfectionism: 2.0  
+Prudence: 4.0  
+Social boldness: 3.0  
+Liveliness: 2.0  
+Sociability: 3.0  
+Social self-esteem: 3.0  
+Organization: 4.0  
+
+Explanation:
+The person appears to be somewhat diligent but struggles with pushing themselves harder in challenging situations, which is reflected by their moderate Diligence score of 3.5.
+They exhibit a moderately perfectionistic trait as they felt uncomfortable when using equipment improperly due to being used to maintaining organization at work, evidenced by the Perfectionism rating of 2.0.
+Their Prudence facet scores highly at 4.0 because they considered not acting on impulse and instead looked for resources online or waited until they were sure before making decisions.
+Social boldness is rated as moderate (3.0) since they can switch between listening and leading roles in group discussions but do not feel like a good speaker, which might indicate some discomfort expressing themselves confidently.
+Liveliness seems to be on the lower side of their personality at 2.0; they admit difficulty communicating effectively due to not rehearsing what they say before presenting, which could suggest lacking spontaneous liveliness and engagement in conversations.
+Their Sociability score is moderate (3.0) because while they are somewhat hesitant about attending after-work social events without knowing the attendees, they eventually decided to go when necessary, showing a balanced approach rather than either extreme of eagerness or avoidance.
+Social self-esteem appears moderately healthy at 3.0 as they show awareness and some level of comfort in unfamiliar social situations but also recognize their personal growth over time in dealing with such scenarios.
+The Organization facet receives the highest score (4.0) because they maintain orderliness at work even when not physically present, showing strong organizational habits and discipline that can be transferred to other aspects of life as well.
+
+This rating system aims to provide an overall assessment based on the answers given for each question, considering all facets of the HEXACO personality model.

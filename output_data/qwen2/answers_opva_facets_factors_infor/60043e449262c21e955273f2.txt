@@ -1,0 +1,26 @@
+Conscientiousness: 4.0  
+Extraversion: 3.0  
+
+Explanation:
+
+- For Question 1, the answer indicates a preference towards shyness and avoiding social situations which is indicative of lower Social self-esteem (related to Conscientiousness). A score of 2 might suggest someone who struggles with social interactions, leading me to assign this question's contribution to Conscientiousness as low.
+
+- For Question 2, the answer shows planning ahead, establishing goals, and being organized which are all characteristics associated with high Organization. Given that it's mentioned in the context of using equipment at work or dealing with multiple classes online, a score of 3 for this question contributes positively to Conscientiousness.
+
+- Question 3 relates to Social boldness (part of Extraversion), where there is an indication of stepping up and sharing experiences. The answer suggests a willingness to lead the discussion rather than just listen, contributing to a higher rating in Extraversion at around 4.
+
+- For Question 4, which pertains to Diligence (Conscientiousness), the answer indicates persistence and determination ("Daily activities by 2" implies the person consistently pushes themselves through challenging tasks).
+
+- Question 5 focuses on Sociability (Extraversion), as skipping or joining after-work events reflects an individual's preference for social interaction. The answer, "Even though...Myself," could be interpreted as a neutral response but leans towards Extraversion since it implies self-reflection and awareness of social situations.
+
+- Question 6 relates to Perfectionism (Conscientiousness), which involves action monitoring and a focus on results. This behavior is more aligned with high Conscientiousness.
+
+- Question 7 connects to Liveliness (Extraversion) as it deals with raising spirits or not in team settings, indicating emotional engagement and ability to boost morale.
+
+- For Question 8, Prudence (Conscientiousness) is indicated by delaying action until necessary ("So amazing...Process") which suggests careful consideration before acting impulsively.
+
+Considering the contributions from each question across Conscientiousness and Extraversion facets:
+
+- Conscientiousness: The individual seems highly organized, diligent, perfectionistic, and prudent, contributing to a high rating here with scores closer to 4.0.
+
+- Extraversion: While there are aspects of leading discussions and being involved in social events, the overall answer does not consistently show strong preferences or behaviors that define extreme extraversion. Thus, an average score around 3.0 seems appropriate for Extraversion based on provided responses.

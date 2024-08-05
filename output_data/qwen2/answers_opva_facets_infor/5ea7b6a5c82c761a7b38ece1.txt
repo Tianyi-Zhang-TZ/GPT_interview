@@ -1,0 +1,28 @@
+Diligence: 3.0  
+Perfectionism: 4.0  
+Prudence: 2.5  
+Social boldness: 1.5  
+Liveliness: 3.0  
+Sociability: 2.0  
+Social self-esteem: 1.5  
+Organization: 2.5  
+
+Explanation:
+
+Diligence: The individual mentioned struggles with challenges, often opting to avoid or pass tasks on rather than pushing through them, which indicates a lower level of diligence.
+
+Perfectionism: There is strong evidence that the person values accuracy and detail in their work, avoiding mistakes at all costs, which suggests a high level of perfectionism. 
+
+Prudence: The individual's response shows they are hesitant to act impulsively when wanting something badly at work or might avoid such actions altogether, indicating a somewhat lower level of prudence.
+
+Social boldness: Based on the answer, it seems the person is quite shy and struggles in social settings, which is reflected in their low rating for social boldness. 
+
+Liveliness: The individual shows concern for others' feelings and tries to support them when they are down, reflecting a moderate level of liveliness.
+
+Sociability: There's evidence that the person avoids after-work events due to discomfort with conversations and interaction, indicating a lower sociability score.  
+
+Social self-esteem: Given their struggle in social settings and preference to stay quiet or avoid eye contact, it seems there is low self-esteem when it comes to social interactions. 
+
+Organization: The individual mentioned difficulty understanding one question about organization, but generally appears to be detail-oriented when necessary and doesn't want others telling them what they did wrong, suggesting an average score for organizational skills.
+
+The overall personality ratings reflect these behaviors across multiple facets of the HEXACO model.

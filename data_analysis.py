@@ -12,19 +12,19 @@ import warnings
 warnings.filterwarnings("ignore")
 
 def find_all_indexes(A, B):
-	indexes = []
-	start = 0
-	while True:
-		index = A.lower().find(B.lower(), start)
-		if index == -1:
-			break
-		indexes.append(index)
-		start = index + 1
-	return indexes
+    indexes = []
+    start = 0
+    while True:
+        index = A.lower().find(B.lower(), start)
+        if index == -1:
+            break
+        indexes.append(index)
+        start = index + 1
+    return indexes
 
 def is_decimal(s):
-	pattern = r'^[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?$'
-	return bool(re.match(pattern, s))
+    pattern = r'^[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?$'
+    return bool(re.match(pattern, s))
 
 def find_closest_num(A, B): 
 	indexes = find_all_indexes(A,B)
@@ -66,7 +66,7 @@ def find_closest_num2(A, B):
 
 	
 def get_answer(filename,question_tpye,dataset):
-	f = open("data_files/data.pkl",'rb')
+	f = open("data.pkl",'rb')
 	data = pickle.load(f)
 	f.close()
 	meta = data["meta_%s"%dataset]
@@ -90,6 +90,8 @@ def get_answer(filename,question_tpye,dataset):
 		if g != -1 and l==-1:
 			if re.findall(r'\d+\.\d+|\d+', txt):
 				pre = find_closest_num(txt,i)
+				if pre >=5 or pre<1:
+					pre = pre/2
 				#pre = find_closest_num2(txt,i)#find_closest_num2 if the scores are int
 				df.loc[0,i] = pre
 			else:
@@ -120,7 +122,7 @@ def compare_metric(pre_dir,c_metric,select_col_pre,select_col_tru):
 	f.close()
 	if predict.index[0] == 0:	
 		predict.index = predict["participantid"]
-	f = open("data_files/data.pkl",'rb')
+	f = open("data.pkl",'rb')
 	data = pickle.load(f)
 	f.close()
 	ground_truth = data["ground_truth_opva"][select_col_tru]
@@ -138,7 +140,7 @@ def compare_metric(pre_dir,c_metric,select_col_pre,select_col_tru):
 	for i in range(len(select_col_pre)):
 		if c_metric =='r2':
 			m = r2_score(tru_data[select_col_tru[i]], pre_data[select_col_pre[i]])
-			print("%s for %s = %s"%(c_metric,select_col_pre[i],round(m,2)))
+			print("%s for %s = %s"%(c_metric,select_col_pre[i],round(m,3)))
 		elif  c_metric =='accuracy':
 			m = accuracy_score(tru_data[select_col_tru[i]].round(0), pre_data[select_col_pre[i]].round(0))
 			print("%s for %s = %s%%"%(c_metric,select_col_pre[i],round(m*100,2)))
@@ -148,8 +150,8 @@ def compare_metric(pre_dir,c_metric,select_col_pre,select_col_tru):
 		elif c_metric == "corr":
 			m,n = pearsonr(pre_data[select_col_pre[i]],tru_data[select_col_tru[i]])
 			print("------------------------------------")
-			print("%s for %s = %s"%(c_metric,select_col_pre[i],round(m,2)))
-			print("p-value for %s = %s"%(select_col_pre[i],round(n,2)))			
+			print("%s for %s = %s"%(c_metric,select_col_pre[i],round(m,3)))
+			print("p-value for %s = %s"%(select_col_pre[i],round(n,3)))			
 	return tru_data,pre_data,m
 
 def save_predictions(pre_dir,out_dir,select_col_tru,select_col_pre):
@@ -158,7 +160,7 @@ def save_predictions(pre_dir,out_dir,select_col_tru,select_col_pre):
 	f.close()
 	if predict.index[0] == 0:	
 		predict.index = predict["participantid"]
-	f = open("data_files/data.pkl",'rb')
+	f = open("data.pkl",'rb')
 	data = pickle.load(f)
 	f.close()
 	ground_truth = data["ground_truth_opva"][select_col_tru]
@@ -204,11 +206,11 @@ def mean_facets(pre_data,out_dir):
 	f.close()
 	return x
 
-def get_data(model,dataset,question_tpyes,n,infor,temp):#get the grond truth and predictions 
+def get_data(model,dataset,question_tpyes,n,infor):#get the grond truth and predictions 
 	question_tpye = question_tpyes[n] if n !=4 else "facets"
-	answer_list = "output_data/%s/answers_%s_%s_%s%s/"%(model,dataset,question_tpye,"infor" if infor else "noninfor",temp)		
+	answer_list = "output_data/%s/answers_%s_%s_%s/"%(model,dataset,question_tpye,"infor" if infor else "noninfor")		
 	if n !=4:
-		pre_dir = "output_data/%s/pre_%s_%s_%s%s.pkl"%(model,dataset,question_tpye,"infor" if infor else "noninfor",temp)
+		pre_dir = "output_data/%s/pre_%s_%s_%s.pkl"%(model,dataset,question_tpye,"infor" if infor else "noninfor")
 		if os.path.exists(pre_dir):
 			f = open(pre_dir,"rb")
 			predicts = pickle.load(f)
@@ -217,7 +219,7 @@ def get_data(model,dataset,question_tpyes,n,infor,temp):#get the grond truth and
 			predicts,pre_dir = get_from_answers(dataset,question_tpye,model,infor,answer_list)		
 	else:
 		#for mean of facets only
-		pre_dir = "output_data/%s/pre_%s_%s_%s%s.pkl"%(model,dataset,"mean_facets","infor" if infor else "noninfor",temp)
+		pre_dir = "output_data/%s/pre_%s_%s_%s.pkl"%(model,dataset,"mean_facets","infor" if infor else "noninfor")
 		if os.path.exists(pre_dir):
 			f = open(pre_dir,"rb")
 			predicts = pickle.load(f)
@@ -225,26 +227,39 @@ def get_data(model,dataset,question_tpyes,n,infor,temp):#get the grond truth and
 		else:
 			predictions,_ = get_from_answers(dataset,question_tpye,model,infor,answer_list)	
 			predicts = mean_facets(predictions,pre_dir)
-	f = open("data_files/data.pkl",'rb')
+	f = open("data.pkl",'rb')
 	data = pickle.load(f)
 	f.close()
 	return predicts, data,pre_dir
-	
+
+def convert_columns(df, columns):
+    df_cleaned = df.dropna(subset=columns)  # Remove rows with NaNs in the specified columns
+    for col in columns:
+        df_cleaned[col] = pd.to_numeric(df_cleaned[col], errors='coerce')  # Convert to numeric, coercing errors to NaN
+        df_cleaned = df_cleaned.dropna(subset=[col])  # Drop rows where conversion to numeric resulted in NaN
+        
+        # Apply the transformation rules
+        new_col_name = f"{col}_int"
+        df_cleaned[new_col_name] = df_cleaned[col].apply(
+            lambda x: 0 if 1 <= x < 2.5 else (1 if 2.5 < x <= 3.5 else (2 if 3.5 < x <= 5 else None))
+        )
+    
+    return df_cleaned	
 	
 if __name__ == "__main__": 
-	n = 0#question type
+	n = 5#question type
 	metric = "r2"
 	dataset = "opva"
-	question_tpyes = ["factors","facets","factors_all","hirability","mean_facets"]
+	question_tpyes = ["factors","facets","factors_all","hirability","mean_facets","facets_factors"]
 	infor = True
-	model = "gpt-3.5"	
-	m = 0 if n>=4 else n;temp = "_1_6"
-	predicts,data,pre_dir = get_data(model,dataset,question_tpyes,n,infor,temp)
+	model = "gemma2"	
+	m = 0 if n>=4 else n
+	predicts,data,pre_dir = get_data(model,dataset,question_tpyes,n,infor)
 	ground_truth = data["ground_truth_opva"]
 	d2 = ground_truth.columns
 	d = []
 	sc = [ [["Extraversion_observer_facet_mean","Conscientiousness_observer_facet_mean"],#observer reported
-			  ["extra10","consc10"]],#self-reported 
+		      ["extra10","consc10"]],#self-reported 
 		   [d2[188:196],d2[118:126],d2[134:142], d2[150:158], d2[166:174],d2[444:452]],#facets
 		   [d2[182:188],d2[112:118]],#all factors, mean_observer_rating, self-rating
 		   [d2[210:215]]]#hirablity score
@@ -254,9 +269,6 @@ if __name__ == "__main__":
 			  ['Development orientation','Communication flexibility','Persuasiveness','Quality orientation','Overall hireability']]
 	select_cols_tru = sc[m]
 	select_col_pre =sc_pre [m]
-	print ("=======\t=======\t=======\t=======\t=======\t=======")
-	print("\tmodel = %s\t\n\tquestion_tpye = %s \t"%(model,question_tpyes[n]))
-	print ("=======\t=======\t=======\t=======\t=======\t=======")
 	for r in range(len(select_cols_tru)):
 		select_col_tru = select_cols_tru[r]
 		try:
@@ -264,19 +276,15 @@ if __name__ == "__main__":
 			truth_name = truth_name[0] if (truth_name[1] != "observers") and (truth_name[1] != "observer") else "Mean of observers"
 		except:
 			truth_name = "Self Observation"
-		print("\t Compared with %s \t"%(truth_name))
-		print ("=======\t=======\t=======\t=======\t=======\t=======")
+		print ("=======\t=======\t=======\t=======\t=======")
+		print("\n \t Compared with %s \t"%(truth_name))
 		tru_data,pre_data,m = compare_metric(pre_dir,metric,select_col_pre,select_col_tru)
 		out_dir = "pre_%s_%s.pkl"%(dataset,truth_name)
 		d.append(save_predictions(pre_dir,out_dir,select_col_tru,select_col_pre))
-		print ("-----\t-----\t-----\t-----\t-----\t-----")
-		print("\t statistic for predictions \t")
+		print("\n \t statistic for predictions \t")
 		for j in range(len(select_cols_tru[r])):
 			print("%s: mean = %s, std = %s"%(select_col_pre[j],np.round(np.mean(pre_data[select_col_pre[j]]),3),np.round(np.std(pre_data[select_col_pre[j]]),3)))		
-		print ("-----\t-----\t-----\t-----\t-----\t-----")
-		print("\t statistic for ground truth \t")
+		print("\n \t statistic for ground truth \t")
 		for j in range(len(select_cols_tru[r])):
 			print("%s: mean = %s, std = %s"%(select_col_pre[j],np.round(np.mean(tru_data[select_col_tru[j]]),3),np.round(np.std(tru_data[select_col_tru[j]]),3)))
-		print ("=======\t=======\t=======\t=======\t=======\t========")
-	os.system('pause')
 		

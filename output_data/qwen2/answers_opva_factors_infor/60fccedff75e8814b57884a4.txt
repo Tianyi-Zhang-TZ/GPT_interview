@@ -1,0 +1,10 @@
+Conscientiousness: 4.0  
+Extraversion: 3.5  
+
+The personality score is rated based on a holistic understanding across all questions according to the HEXACO personality model:
+
+**Conscientiousness**: The individual demonstrates organizational skills, perfectionism and attention to detail (Questions 2, 6). They are also willing to push themselves despite anxiety or discomfort (Question 4) and display a focus on being thorough in their tasks.
+
+**Extraversion**: While they show tendencies of introversion through shyness and hesitation in social settings (Questions 1, 3, 5), there are instances where they step out of their comfort zone to lead discussions or take charge during events (Question 3). They also express a desire for perfectionism which can be seen as an extension of extraversion when striving in challenging situations.
+
+The rating considers that while the individual displays conscientious behavior in most questions, there's a notable contrast between introverted traits and more extroverted behaviors. This results in slightly higher rating on Conscientiousness due to consistent demonstration of task-oriented personality traits compared to Extraversion where there are instances of introversion but also situations of stepping out of this comfort zone.

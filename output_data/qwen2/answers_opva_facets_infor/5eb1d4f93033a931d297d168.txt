@@ -1,0 +1,28 @@
+Diligence: 3.5  
+Perfectionism: 2.0  
+Prudence: 1.5  
+Social boldness: 3.0  
+Liveliness: 4.0  
+Sociability: 2.0  
+Social self-esteem: 2.5  
+Organization: 1.5  
+
+Explanation:
+
+**Diligence**: The person shows some effort in tackling challenging tasks, but also struggles with procrastination and perfectionism which might impede their diligence.
+
+**Perfectionism**: There's a significant indication of not being detail-oriented or perfectionistic, as shown by skipping tiny details when required for avoiding mistakes.
+
+**Prudence**: Decisions seem to be made impulsively without much forethought about future consequences or long-term impact on work and personal life.
+
+**Social boldness**: The person seems comfortable leading group discussions but is hesitant in environments where they are the only one not knowing people, suggesting a balance between social boldness and cautiousness depending on context.
+
+**Liveliness**: Shows high liveliness by making efforts to uplift others when needed and using humor as a tool for this purpose, indicating an energetic personality trait.
+
+**Sociability**: The person prefers being around one or two people rather than in large gatherings, showing lower levels of sociability but with exceptions where they are comfortable enough to lead social events.
+
+**Social self-esteem**: Despite feeling uncomfortable at times and comparing themselves to others, the person doesn't seem to have a low social self-esteem since they can lead group discussions and take charge when needed. 
+
+**Organization**: Shows some lack of organization in returning equipment without taking time to ensure everything is back in place as received.
+
+The overall personality score reflects an individual with diligence issues, low perfectionism, cautiousness about making decisions, balanced social boldness, high liveliness, moderate sociability, normal social self-esteem, and room for improvement in organizational skills.

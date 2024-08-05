@@ -1,0 +1,10 @@
+Conscientiousness: 4.5
+Extraversion: 3.2
+
+Explanation:
+
+Conscientiousness involves traits like being organized, reliable, responsible, self-disciplined, and persistent. The individual demonstrates strong organization (Question 2), diligence in facing challenges (Question 4), attention to detail (Question 6), and willingness to help others when they are feeling down (Question 7). However, there is a hint of prudence (self-restraint) in their behavior since they tend not to act impulsively when wanting something badly at work (Question 8). This trait balances out the higher score on conscientiousness.
+
+Extraversion involves being outgoing, social, and assertive. The individual shows some sociability by trying to foster good relationships outside of work (Question 5) and being friendly towards people at social events. However, they also display a more reserved side when it comes to new social settings (Question 1), not engaging in conversations with unfamiliar individuals unless necessary. This moderate level of social engagement results in the lower score on extraversion.
+
+Overall, the individual leans towards being more conscientious than extraverted due to their consistent and steady behavior across different situations.

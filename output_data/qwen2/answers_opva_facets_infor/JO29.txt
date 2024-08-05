@@ -1,0 +1,26 @@
+Diligence: 4.5  
+Perfectionism: 3.0  
+Prudence: 2.5  
+Social boldness: 1.5  
+Liveliness: 3.0  
+Sociability: 2.0  
+Social self-esteem: 4.0  
+Organization: 4.5  
+
+The personality score is rated using the HEXACO model:
+
+Diligence (rating of 4.5): This trait was shown by the individual's willingness to push themselves in challenging situations, showing a strong commitment and determination.
+
+Perfectionism (rating of 3.0): The person showed some attention to detail when necessary but didn't always opt for perfectionistic behavior, as seen from their responses about tasks being manageable rather than overly stressing on avoiding mistakes.
+
+Prudence (rating of 2.5): There wasn't much shown in terms of cautiousness or self-restraint based on the answers provided.
+
+Social boldness (rating of 1.5): The individual appeared more reserved and introverted, not typically one to take leadership roles during group discussions.
+
+Liveliness (rating of 3.0): They were able to raise others' spirits in certain situations but didn't necessarily exhibit excessive energy or enthusiasm themselves.
+
+Sociability (rating of 2.0): There wasn¡¯t a lot of information about their social tendencies beyond that they would go out for work-related after-hours events, indicating somewhat low sociability.
+
+Social self-esteem (rating of 4.0): They had noticeable self-doubt and insecurity when interacting in new social settings but improved over time to feel more confident.
+
+Organization (rating of 4.5): The individual demonstrated high levels of organization in managing their work environment efficiently, showing a strong ability to maintain orderliness and systematic approaches.

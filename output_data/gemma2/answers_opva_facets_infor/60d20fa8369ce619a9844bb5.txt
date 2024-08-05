@@ -1,0 +1,14 @@
+Here's a personality score based on the provided responses, using the HEXACO model:
+
+* **Social Boldness: 3.0**  The individual seems somewhat comfortable in social situations, but there's a hesitation to lead in discussions (Question 3). The desire to make small talk suggests a willingness to engage, but the nervousness at the party hints at a lack of complete confidence. 
+* **Diligence: 3.5** The individual demonstrates a willingness to work hard and complete tasks, even when challenging (Question 4). However, the decision to take a bathroom break during a demanding move suggests a potential for prioritizing personal comfort over pushing through to the end.
+* **Prudence: 2.5** The individual displays impulsivity in their desire for the Gamecocks table (Question 8), suggesting a tendency to act without fully considering consequences. 
+* **Organization: 2.0** The reluctance to organize the beer cans (Question 2) indicates a potential struggle with maintaining order and structure. 
+* **Liveliness: 3.0** The individual seems capable of lifting spirits (Question 7) and demonstrating enthusiasm. However, their preference to relax rather than socialize after work (Question 5) suggests a moderate level of energy and outgoingness.
+* **Perfectionism: 3.5** The detailed checking of the Uber Eats order (Question 6) reveals a strong attention to detail and a desire for accuracy.
+* **Social Self-Esteem: 2.5**  The individual's nervousness at the party (Question 1) indicates a potential lack of confidence in social settings. While they engage in small talk, the conversations often tail off, suggesting a possible discomfort with sustained social interaction.
+* **Sociability: 2.0** The individual declined the after-work social event (Question 5), prioritizing relaxation over socializing. This suggests a preference for solitude and a moderate desire for social interaction.
+
+
+
+**Overall:** This individual appears to be conscientious and detail-oriented, with a moderate level of social engagement and a tendency towards impulsivity. They value personal comfort and relaxation, and may struggle with organization and maintaining social confidence in unfamiliar situations. 

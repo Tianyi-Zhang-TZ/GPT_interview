@@ -1,0 +1,31 @@
+Diligence: 4.0 
+
+Reasoning: The person mentions their inclination towards pushing themselves and expecting more from themselves than they would have anyone else, indicating a strong work ethic and dedication to tasks.
+
+Perfectionism: 5.0 
+
+Reasoning: There are clear indicators of perfectionism throughout the answers - concern for putting things back exactly as found, meticulousness in detail-oriented tasks, over-caution in wanting something, etc.
+
+Prudence: 3.0 
+
+Reasoning: The person does show some caution and concern about making mistakes or potentially causing harm by acting impulsively, but they also struggle with perfectionism which can sometimes prevent taking necessary action due to fear of errors.
+
+Social boldness: 2.0 
+
+Reasoning: Although the individual mentions being more comfortable in listening roles rather than leading ones and having an introverted personality, these responses suggest a less outgoing or assertive nature in social interactions.
+
+Liveliness: 3.0 
+
+Reasoning: There are elements of liveliness like trying to make people laugh or putting things in perspective when others are down, but the person also mentions needing time for reflection and decompression which could suggest more introverted tendencies.
+
+Sociability: 2.0 
+
+Reasoning: The individual prefers avoiding after-work social events and values time alone for processing experiences which indicates they might not enjoy or seek out social gatherings as much as others.
+
+Social self-esteem: 1.0 
+
+Reasoning: Statements about feeling uncomfortable with oneself in any social setting, fidgeting, being withdrawn and quiet all point to low levels of self-esteem in these situations.
+
+Organization: 4.0 
+
+Reasoning: The person consistently shows a strong inclination towards organization from putting things back exactly as found to checking details meticulously before moving forward.

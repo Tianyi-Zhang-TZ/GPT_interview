@@ -1,0 +1,18 @@
+Conscientiousness: 4.0  
+Extraversion: 3.5 
+
+This person demonstrates a relatively high level of conscientiousness, indicating strong organization and self-discipline in their responses. They are methodical about completing tasks and diligent to ensure details are paid attention to avoid mistakes. This is shown through their willingness to exhaust resources when faced with challenges and their ability to handle complex situations without seeking help.
+
+On the other hand, they exhibit a moderate level of extraversion suggesting they enjoy social interactions but may not be as outgoing or dominant in group settings. They have shown that they can take on both leading and listening roles in discussions which indicates some extroverted tendencies, especially when they are comfortable with the situation. However, their preference for solitude ("farting alone") suggests a more reserved nature.
+
+The ratings were based on the following traits related to each factor:
+
+Conscientiousness: 
+- Diligence and organization
+- Self-discipline in handling tasks
+- Attention to details
+
+Extraversion:
+- Social interaction comfort level 
+- Ability to take charge or follow in discussions 
+- Preference for solitary activities

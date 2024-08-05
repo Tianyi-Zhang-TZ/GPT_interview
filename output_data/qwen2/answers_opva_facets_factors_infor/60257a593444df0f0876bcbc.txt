@@ -1,0 +1,10 @@
+Conscientiousness: 4.3 
+Extraversion: 2.7 
+
+Explanation:
+
+The Conscientiousness score is rated relatively high due to the person's demonstrated focus on organization, diligence in tackling challenging tasks, and their ability to consider others' feelings (as shown by the decision to skip an after-work social event for a friend's birthday). These traits align closely with conscientious individuals who are typically reliable, responsible, and well-organized.
+
+On the other hand, the Extraversion score is lower. The person tends to describe themselves in more introverted terms, preferring roles that involve listening over leading (during group discussions), valuing time alone ("Miller time"), and making decisions based on fairness rather than spontaneous impulses. These traits are characteristic of individuals who are reserved, reflective, and value interpersonal harmony.
+
+Overall, the person leans slightly towards being conscientious but shows a preference for introverted activities and relationships, which is why they score higher in Conscientiousness compared to Extraversion.

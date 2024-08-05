@@ -1,0 +1,29 @@
+Diligence: 4.5  
+Perfectionism: 3.0  
+Prudence: 4.5  
+Social boldness: 2.5  
+Liveliness: 3.5  
+Sociability: 3.0  
+Social self-esteem: 4.0  
+Organization: 4.0 
+
+Justification:
+The personality score is rated according to the individual's answers which reflect various facets of HEXACO Personality Model.
+
+Diligence (rating: 4.5): The individual demonstrated a strong work ethic, willingness to take on challenges and push through them rather than avoiding or passing tasks off to others. They exhibit persistence and perseverance.
+
+Perfectionism (rating: 3.0): While the person mentions being somewhat detail oriented at their job, there was also mention of occasional anxiety related to perfectionism when leaving things incomplete in certain situations. 
+
+Prudence (rating: 4.5): The individual shows consideration for others' feelings and potential impact on teamwork by not making impulsive decisions that could negatively affect themselves or others.
+
+Social boldness (rating: 2.5): The person prefers a listening role over leading roles, although they are comfortable stepping up when needed. This suggests they might need more encouragement in leadership situations but are willing to take initiative occasionally.
+
+Liveliness (rating: 3.5): The individual is empathetic towards others' feelings and often aims to raise spirits when needed, indicating liveliness and positivity in their interactions.
+
+Sociability (rating: 3.0): While they show a preference for work-related relationships over socializing outside of work settings, this does not necessarily reflect a lack of sociability within the workplace context.
+
+Social self-esteem (rating: 4.0): The person seems confident even in unfamiliar social settings and feels at ease with others by finding common threads which indicates positive social self-esteem.
+
+Organization (rating: 4.0): They exhibit good organizational skills as shown by their ability to manage work-related tasks efficiently, even when there are limitations like a locked room or missing tools.
+
+The ratings are based on the individual's descriptions of behavior and attitude across various contexts related to each facet of the HEXACO model.

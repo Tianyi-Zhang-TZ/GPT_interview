@@ -1,0 +1,27 @@
+Diligence: 4.0
+Perfectionism: 3.5
+Prudence: 2.0
+Social boldness: 1.5
+Liveliness: 1.0
+Sociability: 1.5
+Social self-esteem: 3.0
+Organization: 4.0
+
+Rationale:
+Diligence (rating): The individual consistently attempts to figure out challenging tasks on their own and tries hard to complete them, indicating strong diligence.
+
+Perfectionism (rating): The person shows attention to detail and avoids making mistakes due to the nature of their work role. However, they do not go above and beyond normal standards in doing so, suggesting a moderate level of perfectionism.
+
+Prudence (rating): There is minimal effort put into managing others' spirits when they are feeling down or acting impulsively to get something desired. This suggests low prudence.
+
+Social boldness (rating): The individual prefers to be a listener over being a leader and avoids social events, indicating weak social boldness.
+
+Liveliness (rating): They do not actively try to cheer up team members who are feeling down but would say something placating if necessary, suggesting low liveliness. 
+
+Sociability (rating): The person tends to view co-workers as colleagues rather than friends and does not participate in after-work social events unless required, which indicates weak sociability.
+
+Social self-esteem (rating): They manage their own discomfort in unfamiliar situations by keeping conversations going and showing a certain level of self-assuredness when talking with others, suggesting moderate social self-esteem. 
+
+Organization (rating): The individual keeps everything organized at work and is meticulous about putting things back in place, indicating strong organization skills.
+
+The overall ratings reflect the individual's personality traits across the various facets as described by their answers to the questions provided.

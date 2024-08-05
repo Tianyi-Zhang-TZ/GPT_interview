@@ -1,0 +1,14 @@
+Here's a personality rating based on the provided responses, using the HEXACO model:
+
+**Extraversion: 2.5** 
+**Conscientiousness: 4.0**
+
+**Justification:**
+
+* **Extraversion:** The individual describes themselves as an introvert and finds social situations with unfamiliar people initially challenging. They prefer listening in group discussions and bonding with colleagues they already know. While they enjoy connecting with coworkers, they hesitate to join large, unfamiliar social events. These responses suggest a preference for smaller, more intimate social interactions and a lower need for external stimulation, aligning with a lower extraversion score.
+
+* **Conscientiousness:** The individual consistently demonstrates high levels of organization, planning, and attention to detail. They value cleanliness, order, and accuracy in their work and personal life. They are driven to achieve their best and dislike making mistakes. They also express a desire to help their team members and create a positive work environment. These traits strongly indicate a high conscientiousness score. 
+
+
+
+Let me know if you have any other questions! 

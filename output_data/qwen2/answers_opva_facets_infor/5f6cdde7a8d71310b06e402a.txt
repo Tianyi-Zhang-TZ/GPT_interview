@@ -1,0 +1,26 @@
+Diligence: 4.0
+Perfectionism: 3.5
+Prudence: 3.0
+Social boldness: 2.5
+Liveliness: 1.0
+Sociability: 2.0
+Social self-esteem: 3.5
+Organization: 4.0
+
+Explanation:
+
+Diligence: The individual is very determined and persistent in dealing with challenging tasks, showing a strong work ethic (rating of 4.0).
+
+Perfectionism: They exhibit a concern for details and strive to avoid mistakes when necessary (rating of 3.5). 
+
+Prudence: The person appears somewhat cautious about raising others' spirits or taking impulsive actions that may benefit themselves at the expense of others (rating of 3.0).
+
+Social boldness: The individual prefers reserved behaviors in social settings, even feeling uneasy without knowing people beforehand, which is reflected as a lower score for social boldness (rating of 2.5). 
+
+Liveliness: They exhibit somewhat low liveliness or energy level in terms of actively engaging with and cheering up others when their spirits are down (rating of 1.0).
+
+Sociability: The person shows moderate sociability, participating occasionally in after-work events but not feeling very comfortable doing so (rating of 2.0). 
+
+Social self-esteem: They experience discomfort in unfamiliar social settings which might suggest lower levels of self-esteem or confidence in these situations (rating of 3.5).
+
+Organization: There is a strong preference for organization and cleanliness, which indicates high organizational skills and attention to detail (rating of 4.0).
