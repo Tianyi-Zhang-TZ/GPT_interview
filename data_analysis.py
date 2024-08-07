@@ -12,19 +12,19 @@ import warnings
 warnings.filterwarnings("ignore")
 
 def find_all_indexes(A, B):
-    indexes = []
-    start = 0
-    while True:
-        index = A.lower().find(B.lower(), start)
-        if index == -1:
-            break
-        indexes.append(index)
-        start = index + 1
-    return indexes
+	indexes = []
+	start = 0
+	while True:
+		index = A.lower().find(B.lower(), start)
+		if index == -1:
+			break
+		indexes.append(index)
+		start = index + 1
+	return indexes
 
 def is_decimal(s):
-    pattern = r'^[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?$'
-    return bool(re.match(pattern, s))
+	pattern = r'^[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?$'
+	return bool(re.match(pattern, s))
 
 def find_closest_num(A, B): 
 	indexes = find_all_indexes(A,B)
@@ -64,11 +64,20 @@ def find_closest_num2(A, B):
 		break
 	return c_num
 
-	
-def get_answer(filename,question_tpye,dataset):
-	f = open("data.pkl",'rb')
-	data = pickle.load(f)
-	f.close()
+def find_closest_num3(A,B):
+	score_dict = {'low': 0,'medium': 1,'high': 2}
+	lines = A.split('\n')
+	c_num = np.nan
+	for line in lines:
+		if B in line:
+			for level in score_dict:
+				if level in line.lower():
+					c_num = score_dict[level]
+	if c_num == np.nan:
+		print("error")
+	return c_num
+
+def get_answer(filename,question_tpye,dataset,data,cate):
 	meta = data["meta_%s"%dataset]
 	if question_tpye == "factors_all":
 		keys = ["Honesty-Humility","Emotionality","Extraversion","Agreeableness","Conscientiousness","Openness to Experience"]
@@ -88,31 +97,34 @@ def get_answer(filename,question_tpye,dataset):
 		g = txt.lower().find(i.lower())
 		l = txt.find("sorry")
 		if g != -1 and l==-1:
-			if re.findall(r'\d+\.\d+|\d+', txt):
-				pre = find_closest_num(txt,i)
-				if pre >=5 or pre<1:
-					pre = pre/2
-				#pre = find_closest_num2(txt,i)#find_closest_num2 if the scores are int
-				df.loc[0,i] = pre
+			if cate:
+				if re.findall(r'\d+\.\d+|\d+', txt):
+					pre = find_closest_num(txt,i)
+					if pre >=5 or pre<1:
+						pre = pre/2
+					#pre = find_closest_num2(txt,i)#find_closest_num2 if the scores are int
+					df.loc[0,i] = pre
+				else:
+					print(filename.split("/")[1])
 			else:
-				print(filename.split("/")[1])
+				df.loc[0,i] = find_closest_num3(txt,i)
 
 	return df
 
-def get_answers(question_tpye,dataset,model,infor,answer_list):
+def get_answers(question_tpye,dataset,model,infor,answer_list,data,cate):
 	#answer_list = "output_data/%s/answers_%s_%s_%s/"%(model,dataset,question_tpye,"infor" if infor else "noninfor")
 	filelist = os.listdir(answer_list)
 	df = pd.DataFrame()
 	for file in filelist:
 		try:
-			df_sub = get_answer(answer_list+file,question_tpye,dataset)
+			df_sub = get_answer(answer_list+file,question_tpye,dataset,data,cate)
 			df = pd.concat([df,df_sub],ignore_index=True)
 		except Exception as es:
 			print(file)
 			print(es)
 	return df
 
-def compare_metric(pre_dir,c_metric,select_col_pre,select_col_tru):
+def compare_metric(pre_dir,c_metric,select_col_pre,select_col_tru,data):
 	#pre_dir: the path for the predicted valuses
 	#c_metric = "r2" or "accuracy" or "MAE", if choose accuracy score, the answer will be round to interger
 	#select_col_pre: the name of the columns selected for comparision ,prediction
@@ -122,9 +134,6 @@ def compare_metric(pre_dir,c_metric,select_col_pre,select_col_tru):
 	f.close()
 	if predict.index[0] == 0:	
 		predict.index = predict["participantid"]
-	f = open("data.pkl",'rb')
-	data = pickle.load(f)
-	f.close()
 	ground_truth = data["ground_truth_opva"][select_col_tru]
 	ground_truth.index = data["ground_truth_opva"]["workerId"]
 	predcitions = predict[select_col_pre]
@@ -154,15 +163,12 @@ def compare_metric(pre_dir,c_metric,select_col_pre,select_col_tru):
 			print("p-value for %s = %s"%(select_col_pre[i],round(n,3)))			
 	return tru_data,pre_data,m
 
-def save_predictions(pre_dir,out_dir,select_col_tru,select_col_pre):
+def save_predictions(pre_dir,out_dir,select_col_tru,select_col_pre,data):
 	f = open(pre_dir,"rb")
 	predict = pickle.load(f)
 	f.close()
 	if predict.index[0] == 0:	
 		predict.index = predict["participantid"]
-	f = open("data.pkl",'rb')
-	data = pickle.load(f)
-	f.close()
 	ground_truth = data["ground_truth_opva"][select_col_tru]
 	ground_truth.index = data["ground_truth_opva"]["workerId"]
 	predcitions = predict[select_col_pre]
@@ -185,8 +191,8 @@ def save_predictions(pre_dir,out_dir,select_col_tru,select_col_pre):
 	'''
 	return d
 
-def get_from_answers(dataset,question_tpye,model,infor,answer_list):
-	predict = get_answers(question_tpye,dataset,model,infor,answer_list)
+def get_from_answers(dataset,question_tpye,model,infor,answer_list,data,cate):
+	predict = get_answers(question_tpye,dataset,model,infor,answer_list,data,cate)
 	ff = ("_").join(answer_list.split("/")[2].split("_")[1:])
 	file_name =  "output_data/%s/pre_%s.pkl"%(model,ff)  
 	f = open(file_name,'wb')
@@ -206,63 +212,70 @@ def mean_facets(pre_data,out_dir):
 	f.close()
 	return x
 
-def get_data(model,dataset,question_tpyes,n,infor):#get the grond truth and predictions 
+def get_data(model,dataset,question_tpyes,n,infor,cate,data):#get the grond truth and predictions 
 	question_tpye = question_tpyes[n] if n !=4 else "facets"
-	answer_list = "output_data/%s/answers_%s_%s_%s/"%(model,dataset,question_tpye,"infor" if infor else "noninfor")		
+	answer_list = "output_data/%s/answers_%s_%s_%s%s/"%(model,dataset,question_tpye,"infor" if infor else "noninfor","" if cate else "_int")		
 	if n !=4:
-		pre_dir = "output_data/%s/pre_%s_%s_%s.pkl"%(model,dataset,question_tpye,"infor" if infor else "noninfor")
+		pre_dir = "output_data/%s/pre_%s_%s_%s%s.pkl"%(model,dataset,question_tpye,"infor" if infor else "noninfor","" if cate else "_int")
 		if os.path.exists(pre_dir):
 			f = open(pre_dir,"rb")
 			predicts = pickle.load(f)
 			f.close()
 		else:
-			predicts,pre_dir = get_from_answers(dataset,question_tpye,model,infor,answer_list)		
+			predicts,pre_dir = get_from_answers(dataset,question_tpye,model,infor,answer_list,data,cate)		
 	else:
 		#for mean of facets only
-		pre_dir = "output_data/%s/pre_%s_%s_%s.pkl"%(model,dataset,"mean_facets","infor" if infor else "noninfor")
+		pre_dir = "output_data/%s/pre_%s_%s_%s%s.pkl"%(model,dataset,"mean_facets","infor" if infor else "noninfor","" if cate else "_int")
 		if os.path.exists(pre_dir):
 			f = open(pre_dir,"rb")
 			predicts = pickle.load(f)
 			f.close()
 		else:
-			predictions,_ = get_from_answers(dataset,question_tpye,model,infor,answer_list)	
+			predictions,_ = get_from_answers(dataset,question_tpye,model,infor,answer_list,data,cate)	
 			predicts = mean_facets(predictions,pre_dir)
+	return predicts,pre_dir
+
+def convert_columns(df):
+	d2 = df.columns
+	columns = ["Extraversion_observer_facet_mean","Conscientiousness_observer_facet_mean","extra10","consc10"]+list(d2[188:196])+list(d2[118:126])+list(d2[134:142])+list(d2[150:158])+list( d2[166:174])+list(d2[444:452])+list(d2[182:188])+list(d2[112:118])+list(d2[210:215])	
+	df_cleaned = df.dropna(subset=columns)  # Remove rows with NaNs in the specified columns
+	for col in columns:
+		df_cleaned[col] = pd.to_numeric(df_cleaned[col], errors='coerce')  # Convert to numeric, coercing errors to NaN
+		df_cleaned = df_cleaned.dropna(subset=[col])  # Drop rows where conversion to numeric resulted in NaN
+		
+		# Apply the transformation rules
+		new_col_name = f"{col}_int"
+		df_cleaned[new_col_name] = df_cleaned[col].apply(
+			lambda x: 0 if 1 <= x < 2.5 else (1 if 2.5 < x <= 3.5 else (2 if 3.5 < x <= 5 else None))
+		)
+	
+	return df_cleaned	
+	
+if __name__ == "__main__": 
 	f = open("data.pkl",'rb')
 	data = pickle.load(f)
 	f.close()
-	return predicts, data,pre_dir
-
-def convert_columns(df, columns):
-    df_cleaned = df.dropna(subset=columns)  # Remove rows with NaNs in the specified columns
-    for col in columns:
-        df_cleaned[col] = pd.to_numeric(df_cleaned[col], errors='coerce')  # Convert to numeric, coercing errors to NaN
-        df_cleaned = df_cleaned.dropna(subset=[col])  # Drop rows where conversion to numeric resulted in NaN
-        
-        # Apply the transformation rules
-        new_col_name = f"{col}_int"
-        df_cleaned[new_col_name] = df_cleaned[col].apply(
-            lambda x: 0 if 1 <= x < 2.5 else (1 if 2.5 < x <= 3.5 else (2 if 3.5 < x <= 5 else None))
-        )
-    
-    return df_cleaned	
-	
-if __name__ == "__main__": 
 	n = 5#question type
-	metric = "r2"
+	metric = "accuracy"
 	dataset = "opva"
 	question_tpyes = ["factors","facets","factors_all","hirability","mean_facets","facets_factors"]
 	infor = True
+	cate = False
 	model = "gemma2"	
 	m = 0 if n>=4 else n
-	predicts,data,pre_dir = get_data(model,dataset,question_tpyes,n,infor)
+	predicts,pre_dir = get_data(model,dataset,question_tpyes,n,infor,cate,data)
 	ground_truth = data["ground_truth_opva"]
+	ground_truth = convert_columns(ground_truth)
+	data["ground_truth_opva"] = ground_truth
 	d2 = ground_truth.columns
 	d = []
 	sc = [ [["Extraversion_observer_facet_mean","Conscientiousness_observer_facet_mean"],#observer reported
-		      ["extra10","consc10"]],#self-reported 
-		   [d2[188:196],d2[118:126],d2[134:142], d2[150:158], d2[166:174],d2[444:452]],#facets
-		   [d2[182:188],d2[112:118]],#all factors, mean_observer_rating, self-rating
-		   [d2[210:215]]]#hirablity score
+			  ["extra10","consc10"]],#self-reported 
+			[d2[188:196],d2[118:126],d2[134:142], d2[150:158], d2[166:174],d2[444:452]],#facets
+			[d2[182:188],d2[112:118]],#all factors, mean_observer_rating, self-rating
+			[d2[210:215]]]#hirablity score
+	if not cate:
+		sc = [[[element + "_int" for element in sublist] for sublist in inner_list] for inner_list in sc]
 	sc_pre = [["Extraversion","Conscientiousness"],
 			  ['Social self-esteem','Social boldness','Sociability','Liveliness','Organization','Diligence','Prudence','Perfectionism'],
 			  ["Honesty-Humility","Emotionality","Extraversion","Agreeableness","Conscientiousness","Openness to Experience"],
@@ -278,9 +291,9 @@ if __name__ == "__main__":
 			truth_name = "Self Observation"
 		print ("=======\t=======\t=======\t=======\t=======")
 		print("\n \t Compared with %s \t"%(truth_name))
-		tru_data,pre_data,m = compare_metric(pre_dir,metric,select_col_pre,select_col_tru)
+		tru_data,pre_data,m = compare_metric(pre_dir,metric,select_col_pre,select_col_tru,data)
 		out_dir = "pre_%s_%s.pkl"%(dataset,truth_name)
-		d.append(save_predictions(pre_dir,out_dir,select_col_tru,select_col_pre))
+		d.append(save_predictions(pre_dir,out_dir,select_col_tru,select_col_pre,data))
 		print("\n \t statistic for predictions \t")
 		for j in range(len(select_cols_tru[r])):
 			print("%s: mean = %s, std = %s"%(select_col_pre[j],np.round(np.mean(pre_data[select_col_pre[j]]),3),np.round(np.std(pre_data[select_col_pre[j]]),3)))		

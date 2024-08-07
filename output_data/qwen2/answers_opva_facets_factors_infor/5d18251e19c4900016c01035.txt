@@ -1,6 +1,0 @@
-Conscientiousness: 4.0  
-Extraversion: 3.0  
-
-The Conscientiousness score is rated at 4.0 because the individual demonstrates traits such as organization (facets Organization), diligence (facets Diligence), and responsibility (through the consideration of others' feelings during an after-work social event - facet Sociability). These traits generally align with a conscientious personality, which is organized, responsible, persistent, and reliable.
-
-The Extraversion score is rated at 3.0 due to a somewhat reserved nature observed in answering about their experiences in social settings (facet Social self-esteem), the mention of not being a good speaker during group discussions (facets Social boldness), acting on impulses less frequently (facet Prudence), and having more introverted behaviors (indicated by answers related to living mostly at home). These responses suggest that they may be relatively reserved or cautious in social situations compared to others.

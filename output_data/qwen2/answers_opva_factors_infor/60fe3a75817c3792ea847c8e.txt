@@ -1,8 +1,0 @@
-Conscientiousness: 4.2
-Extraversion: 3.5
-
-The Conscientiousness score is based on the person's tendency to organize, plan ahead, pay attention to details, and ensure tasks are completed correctly. The individual demonstrates reliability in managing responsibilities at work, especially with tasks requiring meticulous care, indicating high conscientiousness.
-
-The Extraversion score considers social engagement levels, enthusiasm for social events, willingness to take leadership roles, and overall social interaction styles. Despite these tendencies towards introversion, the person still participates in social settings, leads discussions when confident in their knowledge, and values teamwork, which suggests they are moderately extraverted. 
-
-The scores reflect a balance between being detail-oriented and conscientious (high) with less of an inclination for spontaneous actions or intense participation in social activities (moderate).
