@@ -49,13 +49,15 @@ def main(question_tpye,dataset,infor,model_name,cate):
 	
 if __name__ == "__main__":	
 	question_tpyes = ["factors","facets","facets_factors"]
-	dataset = "opva"
+	dataset = "prolific"
 	model_name = "gemma2"
 	info = True
-	cate = False
+	cate = True
+	if dataset=="prolific":
+		question_tpyes=[question_tpyes[0]]
 	for question_tpye in question_tpyes:
 		prompt_p.save_questions(question_tpye,dataset,info,cate)
-		f = open("opva/questions_%s.pkl"%(question_tpye),"rb")
+		f = open("%s/questions_%s.pkl"%(dataset,question_tpye),"rb")
 		q = pickle.load(f)
 		f.close()
 		main(question_tpye,dataset,info,model_name,cate)

@@ -26,7 +26,10 @@ def question(transcript,meta,dataset,cate):
 	#tt = list(set([i for i in meta["questions_key_personality"].values()])) if (question_tpye == "factors" or question_tpye == 'facets_factors') else list(set([i for i in meta["questions_key_facet"].values()]))
 	temp = ""
 	for t in tt:
-		temp = temp + t+": rating (the rating should high/medium/low) \n"
+		if cate:
+			temp = temp + t+": rating (ranging from 1.0 to 5.0) \n"
+		else:
+			temp = temp + t+": rating (the rating should high/medium/low) \n"
 	tail = "Please answer with the template:\n"+ temp + "and why. The rating should be overall ratings instead of for each question."
 	#tail_ = "Please rate just 2 factors (i.e., Extraversion and Conscientiousness) instead of the 8 facets. "
 	#if question_tpye == "facets_factors":
