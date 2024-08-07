@@ -106,18 +106,24 @@ def question(transcript,meta,question_tpye,dataset,info,cate):
 	#question_tpye = "factors", "facets" (only for opva),"facets_factors","none","generic_only"(only for prolific)
 	#dataset = "opva" or "prolific"
 	#info =True, tell the AI what is this question is about
-	num = meta["num_factors"] if (question_tpye == "factors" or question_tpye == 'facets_factors') else meta["num_facets"]
+	if question_tpye == "factors_all":
+		num = 6
+	else:
+		num = meta["num_factors"] if (question_tpye == "factors" or question_tpye == 'facets_factors') else meta["num_facets"]
 	t1 = "For each question, I can give you the indication (but not strongly constrained by) about what is the corresponding %s this question is related to. "%(question_tpye[0:-1] if question_tpye !="facets_factors" else "facect")
 	t2 = "The person also answer 2 generic questions which do not relate to a specific factor of personality. You can also use this information to rate his or her personality."
-	keys_ = list(set([i for i in meta["questions_key_personality"].values()])) if (question_tpye == "factors" or question_tpye == 'facets_factors') else list(set([i for i in meta["questions_key_facet"].values()]))
-	if "Generic" in keys_:
-		keys_.remove("Generic")
+	if question_tpye == "factors_all":
+		keys_ = ['Honesty-Humility','Emotionality','Extraversion','Agreeableness','Conscientiousness','Openness to Experience']
+	else:
+		keys_ = list(set([i for i in meta["questions_key_personality"].values()])) if (question_tpye == "factors" or question_tpye == 'facets_factors') else list(set([i for i in meta["questions_key_facet"].values()]))
+		if "Generic" in keys_:
+			keys_.remove("Generic")
 	keys = ', '.join(keys_)
 	if cate:
-		head = "You are a psychologist in personality research. Could you rate the personality score of the person based on the answer to the following questions? The personality score (ranging from 1.0-5.0) should be rated according to the HEXCO personality model by %s %s (i.e., %s). %s%s"%(num,question_tpye if question_tpye !="facets_factors" else "factors",
+		head = "You are a psychologist in personality research. Could you rate the personality score of the person based on the answer to the following questions? The personality score (ranging from 1.0-5.0) should be rated according to the HEXCO personality model by %s %s (i.e., %s). %s%s"%(num,question_tpye[0:6] if question_tpye !="facets_factors" else "factors",
 			keys,t1 if info else "", t2 if dataset=="prolific" and question_tpye!="generic_only" else "")
 	else:
-		head = "You are a psychologist in personality research. Could you rate the personality score of the person based on the answer to the following questions? The personality score (high/medium/low) should be rated according to the HEXCO personality model by %s %s (i.e., %s). %s%s"%(num,question_tpye if question_tpye !="facets_factors" else "factors",
+		head = "You are a psychologist in personality research. Could you rate the personality score of the person based on the answer to the following questions? The personality score (high/medium/low) should be rated according to the HEXCO personality model by %s %s (i.e., %s). %s%s"%(num,question_tpye[0:6]  if question_tpye !="facets_factors" else "factors",
 			keys,t1 if info else "", t2 if dataset=="prolific" and question_tpye!="generic_only" else "")		
 	head = head+"\n"
 	qList = ["q%s"%(i) for i in range(1,len(meta["questions"])+1)]
@@ -126,7 +132,7 @@ def question(transcript,meta,question_tpye,dataset,info,cate):
 		if meta["questions_key_personality"][q] == "Generic":
 			q_info = "\nThis is a generic question."
 		else:
-			q_info = "\nThis is a question related to the %s of %s."%(question_tpye[0:-1] if question_tpye !="facets_factors" else "facet" ,meta["questions_key_personality"][q] if question_tpye == "factors" else meta["questions_key_facet"][q])
+			q_info = "\nThis is a question related to the %s of %s."%(question_tpye[0:-1] if question_tpye !="facets_factors" else "facet" ,meta["questions_key_personality"][q] if (question_tpye == "factors") or (question_tpye == "factors_all") else meta["questions_key_facet"][q])
 		txt = "Question %s: %s\nAnswer: %s%s\n"%(q[1],meta["questions"][q],transcript[q],q_info if info else "")
 		body.append(txt)
 	#tail = "Please answer with the template of ratings: \n and why."

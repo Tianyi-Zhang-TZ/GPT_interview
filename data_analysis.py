@@ -85,6 +85,8 @@ def get_answer(filename,question_tpye,dataset,data,cate):
 		keys = ['Development orientation','Communication flexibility','Persuasiveness','Quality orientation','Overall hireability']
 	else:
 		keys = list(set([i for i in meta["questions_key_personality"].values()])) if question_tpye == "factors" or question_tpye == "facets_factors" else list(set([i for i in meta["questions_key_facet"].values()]))
+	if "Generic" in keys:
+		keys.remove("Generic")
 	f = open(filename)
 	txt = f.read()
 	f.close()
@@ -124,7 +126,7 @@ def get_answers(question_tpye,dataset,model,infor,answer_list,data,cate):
 			print(es)
 	return df
 
-def compare_metric(pre_dir,c_metric,select_col_pre,select_col_tru,data):
+def compare_metric(dataset,pre_dir,c_metric,select_col_pre,select_col_tru,data):
 	#pre_dir: the path for the predicted valuses
 	#c_metric = "r2" or "accuracy" or "MAE", if choose accuracy score, the answer will be round to interger
 	#select_col_pre: the name of the columns selected for comparision ,prediction
@@ -134,8 +136,8 @@ def compare_metric(pre_dir,c_metric,select_col_pre,select_col_tru,data):
 	f.close()
 	if predict.index[0] == 0:	
 		predict.index = predict["participantid"]
-	ground_truth = data["ground_truth_opva"][select_col_tru]
-	ground_truth.index = data["ground_truth_opva"]["workerId"]
+	ground_truth = data["ground_truth_%s"%dataset][select_col_tru]
+	ground_truth.index = data["ground_truth_%s"%dataset][data["ground_truth_%s"%dataset].columns[0]]
 	predcitions = predict[select_col_pre]
 	#predcitions.index = predict["participantid"]
 	for i in range(len(select_col_pre)):		
@@ -163,14 +165,14 @@ def compare_metric(pre_dir,c_metric,select_col_pre,select_col_tru,data):
 			print("p-value for %s = %s"%(select_col_pre[i],round(n,3)))			
 	return tru_data,pre_data,m
 
-def save_predictions(pre_dir,out_dir,select_col_tru,select_col_pre,data):
+def save_predictions(dataset,pre_dir,out_dir,select_col_tru,select_col_pre,data):
 	f = open(pre_dir,"rb")
 	predict = pickle.load(f)
 	f.close()
 	if predict.index[0] == 0:	
-		predict.index = predict["participantid"]
-	ground_truth = data["ground_truth_opva"][select_col_tru]
-	ground_truth.index = data["ground_truth_opva"]["workerId"]
+		predict.index = predict["participantid"%dataset]
+	ground_truth = data["ground_truth_%s"][select_col_tru]
+	ground_truth.index = data["ground_truth_%s"%dataset]["workerId"]
 	predcitions = predict[select_col_pre]
 	#predcitions.index = predict["participantid"]
 	for i in range(len(select_col_pre)):		
@@ -255,31 +257,37 @@ if __name__ == "__main__":
 	f = open("data.pkl",'rb')
 	data = pickle.load(f)
 	f.close()
-	n = 5#question type
-	metric = "accuracy"
-	dataset = "opva"
+	n = 0#question type
+	metric = "r2"
+	dataset = "prolific"
 	question_tpyes = ["factors","facets","factors_all","hirability","mean_facets","facets_factors"]
 	infor = True
-	cate = False
+	cate = True
 	model = "gemma2"	
 	m = 0 if n>=4 else n
 	predicts,pre_dir = get_data(model,dataset,question_tpyes,n,infor,cate,data)
-	ground_truth = data["ground_truth_opva"]
-	ground_truth = convert_columns(ground_truth)
-	data["ground_truth_opva"] = ground_truth
+	ground_truth = data["ground_truth_%s"%dataset]
+	#ground_truth = convert_columns(ground_truth)
+	data["ground_truth_%s"%dataset] = ground_truth
 	d2 = ground_truth.columns
 	d = []
-	sc = [ [["Extraversion_observer_facet_mean","Conscientiousness_observer_facet_mean"],#observer reported
-			  ["extra10","consc10"]],#self-reported 
-			[d2[188:196],d2[118:126],d2[134:142], d2[150:158], d2[166:174],d2[444:452]],#facets
-			[d2[182:188],d2[112:118]],#all factors, mean_observer_rating, self-rating
-			[d2[210:215]]]#hirablity score
+	if dataset == "opva":
+		sc = [ [["Extraversion_observer_facet_mean","Conscientiousness_observer_facet_mean"],#observer reported
+				  ["extra10","consc10"]],#self-reported 
+				[d2[188:196],d2[118:126],d2[134:142], d2[150:158], d2[166:174],d2[444:452]],#facets
+				[d2[182:188],d2[112:118]],#all factors, mean_observer_rating, self-rating
+				[d2[210:215]]]#hirablity score
+		sc_pre = [["Extraversion","Conscientiousness"],
+				  ['Social self-esteem','Social boldness','Sociability','Liveliness','Organization','Diligence','Prudence','Perfectionism'],
+				  ["Honesty-Humility","Emotionality","Extraversion","Agreeableness","Conscientiousness","Openness to Experience"],
+				  ['Development orientation','Communication flexibility','Persuasiveness','Quality orientation','Overall hireability']]
+	else:
+		sc = [[]]
+		sc_pre = [["Extraversion","Conscientiousness","Honesty-Humility","Agreeableness"],
+			[],["Extraversion","Conscientiousness","Honesty-Humility","Agreeableness","Emotionality","Openness to Experience"]]
 	if not cate:
 		sc = [[[element + "_int" for element in sublist] for sublist in inner_list] for inner_list in sc]
-	sc_pre = [["Extraversion","Conscientiousness"],
-			  ['Social self-esteem','Social boldness','Sociability','Liveliness','Organization','Diligence','Prudence','Perfectionism'],
-			  ["Honesty-Humility","Emotionality","Extraversion","Agreeableness","Conscientiousness","Openness to Experience"],
-			  ['Development orientation','Communication flexibility','Persuasiveness','Quality orientation','Overall hireability']]
+
 	select_cols_tru = sc[m]
 	select_col_pre =sc_pre [m]
 	for r in range(len(select_cols_tru)):
@@ -291,9 +299,9 @@ if __name__ == "__main__":
 			truth_name = "Self Observation"
 		print ("=======\t=======\t=======\t=======\t=======")
 		print("\n \t Compared with %s \t"%(truth_name))
-		tru_data,pre_data,m = compare_metric(pre_dir,metric,select_col_pre,select_col_tru,data)
+		tru_data,pre_data,m = compare_metric(dataset,pre_dir,metric,select_col_pre,select_col_tru,data)
 		out_dir = "pre_%s_%s.pkl"%(dataset,truth_name)
-		d.append(save_predictions(pre_dir,out_dir,select_col_tru,select_col_pre,data))
+		d.append(save_predictions(dataset,pre_dir,out_dir,select_col_tru,select_col_pre,data))
 		print("\n \t statistic for predictions \t")
 		for j in range(len(select_cols_tru[r])):
 			print("%s: mean = %s, std = %s"%(select_col_pre[j],np.round(np.mean(pre_data[select_col_pre[j]]),3),np.round(np.std(pre_data[select_col_pre[j]]),3)))		
