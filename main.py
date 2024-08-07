@@ -48,13 +48,13 @@ def main(question_tpye,dataset,infor,model_name,cate):
 	f.close()
 	
 if __name__ == "__main__":	
-	question_tpyes = ["factors","facets","facets_factors"]
+	question_tpyes = ["factors","facets","facets_factors","factors_all"]
 	dataset = "prolific"
 	model_name = "gemma2"
 	info = True
 	cate = True
 	if dataset=="prolific":
-		question_tpyes=[question_tpyes[0]]
+		question_tpyes=[question_tpyes[3]]
 	for question_tpye in question_tpyes:
 		prompt_p.save_questions(question_tpye,dataset,info,cate)
 		f = open("%s/questions_%s.pkl"%(dataset,question_tpye),"rb")
