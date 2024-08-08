@@ -170,9 +170,9 @@ def save_predictions(dataset,pre_dir,out_dir,select_col_tru,select_col_pre,data)
 	predict = pickle.load(f)
 	f.close()
 	if predict.index[0] == 0:	
-		predict.index = predict["participantid"%dataset]
-	ground_truth = data["ground_truth_%s"][select_col_tru]
-	ground_truth.index = data["ground_truth_%s"%dataset]["workerId"]
+		predict.index = predict["participantid"]
+	ground_truth = data["ground_truth_%s"%dataset][select_col_tru]
+	ground_truth.index = data["ground_truth_%s"%dataset][data["ground_truth_%s"%dataset].columns[0]]
 	predcitions = predict[select_col_pre]
 	#predcitions.index = predict["participantid"]
 	for i in range(len(select_col_pre)):		
@@ -282,9 +282,13 @@ if __name__ == "__main__":
 				  ["Honesty-Humility","Emotionality","Extraversion","Agreeableness","Conscientiousness","Openness to Experience"],
 				  ['Development orientation','Communication flexibility','Persuasiveness','Quality orientation','Overall hireability']]
 	else:
-		sc = [[]]
-		sc_pre = [["Extraversion","Conscientiousness","Honesty-Humility","Agreeableness"],
-			[],["Extraversion","Conscientiousness","Honesty-Humility","Agreeableness","Emotionality","Openness to Experience"]]
+		sc = [[['A_observer','C_observer','H_observer','E_observer'],['A_self', 'C_self', 'H_self','E_self']],
+				[],
+				[d2[17:23],d2[11:17]],#all factors
+				[d2[23:29],d2[29:]]#generic and persoanlity question ratings
+				]
+		sc_pre = [["Agreeableness","Conscientiousness","Honesty-Humility","Extraversion"],
+			[],["Honesty-Humility","Emotionality","Extraversion","Agreeableness","Conscientiousness","Openness to Experience"]]
 	if not cate:
 		sc = [[[element + "_int" for element in sublist] for sublist in inner_list] for inner_list in sc]
 
