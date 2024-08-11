@@ -237,9 +237,8 @@ def get_data(model,dataset,question_tpyes,n,infor,cate,data):#get the grond trut
 			predicts = mean_facets(predictions,pre_dir)
 	return predicts,pre_dir
 
-def convert_columns(df):
-	d2 = df.columns
-	columns = ["Extraversion_observer_facet_mean","Conscientiousness_observer_facet_mean","extra10","consc10"]+list(d2[188:196])+list(d2[118:126])+list(d2[134:142])+list(d2[150:158])+list( d2[166:174])+list(d2[444:452])+list(d2[182:188])+list(d2[112:118])+list(d2[210:215])	
+def convert_columns(df,sc):
+	columns =[item for sublist1 in sc for sublist2 in sublist1 for item in sublist2]
 	df_cleaned = df.dropna(subset=columns)  # Remove rows with NaNs in the specified columns
 	for col in columns:
 		df_cleaned[col] = pd.to_numeric(df_cleaned[col], errors='coerce')  # Convert to numeric, coercing errors to NaN
@@ -250,7 +249,6 @@ def convert_columns(df):
 		df_cleaned[new_col_name] = df_cleaned[col].apply(
 			lambda x: 0 if 1 <= x < 2.5 else (1 if 2.5 < x <= 3.5 else (2 if 3.5 < x <= 5 else None))
 		)
-	
 	return df_cleaned	
 	
 if __name__ == "__main__": 
@@ -258,16 +256,15 @@ if __name__ == "__main__":
 	data = pickle.load(f)
 	f.close()
 	n = 0#question type
-	metric = "r2"
+	metric = "accuracy"
 	dataset = "prolific"
 	question_tpyes = ["factors","facets","factors_all","hirability","mean_facets","facets_factors"]
 	infor = True
-	cate = True
+	cate = False
 	model = "gemma2"	
 	m = 0 if n>=4 else n
 	predicts,pre_dir = get_data(model,dataset,question_tpyes,n,infor,cate,data)
-	ground_truth = data["ground_truth_%s"%dataset]
-	#ground_truth = convert_columns(ground_truth)
+	ground_truth = data["ground_truth_%s"%dataset]		
 	data["ground_truth_%s"%dataset] = ground_truth
 	d2 = ground_truth.columns
 	d = []
@@ -290,8 +287,9 @@ if __name__ == "__main__":
 		sc_pre = [["Agreeableness","Conscientiousness","Honesty-Humility","Extraversion"],
 			[],["Honesty-Humility","Emotionality","Extraversion","Agreeableness","Conscientiousness","Openness to Experience"]]
 	if not cate:
+		ground_truth = convert_columns(ground_truth,sc)		
 		sc = [[[element + "_int" for element in sublist] for sublist in inner_list] for inner_list in sc]
-
+		data["ground_truth_%s"%dataset] = ground_truth
 	select_cols_tru = sc[m]
 	select_col_pre =sc_pre [m]
 	for r in range(len(select_cols_tru)):
