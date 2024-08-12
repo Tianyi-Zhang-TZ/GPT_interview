@@ -49,12 +49,12 @@ def phrase_questions(transcripts,meta,dataset,cate):
 	return questions
 
 def save_questions(dataset,cate):
-	f = open('data.pkl','rb')
+	f = open('data_files/data.pkl','rb')
 	data = pickle.load(f)
 	f.close()
 	transcripts = data["transcripts_opva"]
 	meta = 	data["meta_%s"%(dataset)]
 	questions = phrase_questions(transcripts,meta,dataset,cate)
-	f = open('%s/questions_%s_infor.pkl'%(dataset,"hirability"),'wb')
+	f = open('questions/%s/questions_%s_infor.pkl'%(dataset,"hirability"),'wb')
 	pickle.dump(questions, f)
 	f.close()

@@ -252,9 +252,10 @@ def convert_columns(df,sc):
 	return df_cleaned	
 	
 if __name__ == "__main__": 
-	f = open("data.pkl",'rb')
-	data = pickle.load(f)
-	f.close()
+	with open("data_files/data.pkl",'rb') as f:
+		data = pickle.load(f)
+	with open("data_files/select_columns.pkl","rb") as f:
+		ssc = pickle.load(f)
 	n = 0#question type
 	metric = "accuracy"
 	dataset = "prolific"
@@ -266,26 +267,9 @@ if __name__ == "__main__":
 	predicts,pre_dir = get_data(model,dataset,question_tpyes,n,infor,cate,data)
 	ground_truth = data["ground_truth_%s"%dataset]		
 	data["ground_truth_%s"%dataset] = ground_truth
-	d2 = ground_truth.columns
+	sc = ssc[dataset]["sc"]
+	sc_pre = ssc[dataset]["sc_pre"]
 	d = []
-	if dataset == "opva":
-		sc = [ [["Extraversion_observer_facet_mean","Conscientiousness_observer_facet_mean"],#observer reported
-				  ["extra10","consc10"]],#self-reported 
-				[d2[188:196],d2[118:126],d2[134:142], d2[150:158], d2[166:174],d2[444:452]],#facets
-				[d2[182:188],d2[112:118]],#all factors, mean_observer_rating, self-rating
-				[d2[210:215]]]#hirablity score
-		sc_pre = [["Extraversion","Conscientiousness"],
-				  ['Social self-esteem','Social boldness','Sociability','Liveliness','Organization','Diligence','Prudence','Perfectionism'],
-				  ["Honesty-Humility","Emotionality","Extraversion","Agreeableness","Conscientiousness","Openness to Experience"],
-				  ['Development orientation','Communication flexibility','Persuasiveness','Quality orientation','Overall hireability']]
-	else:
-		sc = [[['A_observer','C_observer','H_observer','E_observer'],['A_self', 'C_self', 'H_self','E_self']],
-				[],
-				[d2[17:23],d2[11:17]],#all factors
-				[d2[23:29],d2[29:]]#generic and persoanlity question ratings
-				]
-		sc_pre = [["Agreeableness","Conscientiousness","Honesty-Humility","Extraversion"],
-			[],["Honesty-Humility","Emotionality","Extraversion","Agreeableness","Conscientiousness","Openness to Experience"]]
 	if not cate:
 		ground_truth = convert_columns(ground_truth,sc)		
 		sc = [[[element + "_int" for element in sublist] for sublist in inner_list] for inner_list in sc]
@@ -303,7 +287,7 @@ if __name__ == "__main__":
 		print("\n \t Compared with %s \t"%(truth_name))
 		tru_data,pre_data,m = compare_metric(dataset,pre_dir,metric,select_col_pre,select_col_tru,data)
 		out_dir = "pre_%s_%s.pkl"%(dataset,truth_name)
-		d.append(save_predictions(dataset,pre_dir,out_dir,select_col_tru,select_col_pre,data))
+		#d.append(save_predictions(dataset,pre_dir,out_dir,select_col_tru,select_col_pre,data))
 		print("\n \t statistic for predictions \t")
 		for j in range(len(select_cols_tru[r])):
 			print("%s: mean = %s, std = %s"%(select_col_pre[j],np.round(np.mean(pre_data[select_col_pre[j]]),3),np.round(np.std(pre_data[select_col_pre[j]]),3)))		

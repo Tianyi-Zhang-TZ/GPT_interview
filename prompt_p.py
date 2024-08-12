@@ -9,6 +9,7 @@ import pickle
 import pandas as pd
 import os
 import time
+from pathlib import Path
 
 def check_subid(sub,sublist,dataset):
 	#return a list of subjects within the validated subject list	
@@ -93,7 +94,9 @@ def save_files():
 	transcripts_sort = check_subid(transcripts,subject_id,'opva')
 	transcripts_sort_prolific =check_subid(transcripts_prolific,subject_id_prolific,'prolific')
 	ground_truth_sort = check_subid(ground_truth,subject_id,'opva')
-	f = open("data.pkl", 'wb')
+	BASE_DIR = Path(__file__).resolve().parent
+	data_file_path = BASE_DIR / 'data_files' / 'data.pkl'
+	f = open(data_file_path, 'wb')
 	pickle.dump({"transcripts_opva":transcripts_sort,
 			  "transcripts_prolific":transcripts_sort_prolific,
 			  "ground_truth_opva":ground_truth_sort,
@@ -162,13 +165,17 @@ def phrase_questions(transcripts,meta,question_tpye,dataset,info,cate):
 	return questions
 
 def save_questions(question_tpye,dataset,info,cate):
+	BASE_DIR = Path(__file__).resolve().parent
+	data_file_path = BASE_DIR / 'data_files' / 'data.pkl'
 	mark = "" if cate else "_int"
-	f = open('data.pkl','rb')
+	mark_infor = "_infor" if info else "_noninfor"
+	f = open(data_file_path,'rb')
 	data = pickle.load(f)
 	f.close()
 	transcripts = data["transcripts_%s"%(dataset)]
 	meta = 	data["meta_%s"%(dataset)]
 	questions = phrase_questions(transcripts,meta,question_tpye,dataset,info,cate)
-	f = open('%s/questions_%s%s.pkl'%(dataset,question_tpye,mark),'wb')
+	f = open('questions/%s/questions_%s%s%s.pkl'%(dataset,question_tpye,mark_infor,mark),'wb')
 	pickle.dump(questions, f)
 	f.close()
+	return questions

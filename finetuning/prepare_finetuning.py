@@ -43,7 +43,7 @@ def question(transcript,meta,question_tpye,dataset,info):
 	return role,text
 
 def phrase_questions(transcripts,meta,question_tpye,dataset,info):
-	f = open('../data.pkl','rb')
+	f = open('../data_files/data.pkl','rb')
 	data = pickle.load(f)
 	f.close()
 	questions = pd.DataFrame(columns=["participantid","role","question","answer"])

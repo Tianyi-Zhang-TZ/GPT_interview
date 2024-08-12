@@ -22,26 +22,12 @@ def phrase_ground_truth(transcript,data,question_tpye,dataset,cate):
 	question_tpyes = ["factors","facets","factors_all","hirability","mean_facets"]
 	n = question_tpyes.index(question_tpye)
 	m = 0 if n>=4 else n
-	d2 = data["ground_truth_%s"%dataset].columns
-	ground_truth = data["ground_truth_%s"%dataset]
-	if dataset=="opva":
-		sc = [ [["Extraversion_observer_facet_mean","Conscientiousness_observer_facet_mean"],#observer reported
-			      ["extra10","consc10"]],#self-reported 
-			   [d2[188:196],d2[118:126],d2[134:142], d2[150:158], d2[166:174],d2[444:452]],#facets
-			   [d2[182:188],d2[112:118]],#all factors, mean_observer_rating, self-rating
-			   [d2[210:215]]]#hirablity score		
-		sc_pre = [["Extraversion","Conscientiousness"],
-			  ['Social self-esteem','Social boldness','Sociability','Liveliness','Organization','Diligence','Prudence','Perfectionism'],
-			  ["Honesty-Humility","Emotionality","Extraversion","Agreeableness","Conscientiousness","Openness to Experience"],
-			  ['Development orientation','Communication flexibility','Persuasiveness','Quality orientation','Overall hireability']]
-	else:
-		sc = [[['A_observer','C_observer','H_observer','E_observer'],['A_self', 'C_self', 'H_self','E_self']],
-				[],
-				[d2[17:23],d2[11:17]],#all factors
-				[d2[23:29],d2[29:]]#generic and persoanlity question ratings
-				]
-		sc_pre = [["Agreeableness","Conscientiousness","Honesty-Humility","Extraversion"],
-			[],["Honesty-Humility","Emotionality","Extraversion","Agreeableness","Conscientiousness","Openness to Experience"]]
+	with open("../data_files/select_columns.pkl","rb") as f:
+		ssc= pickle.load(f)
+	sc = ssc[dataset]["sc"]
+	sc_pre = ssc[dataset]["sc_pre"]
+	ground_truth = data["ground_truth_%s"%dataset]		
+	data["ground_truth_%s"%dataset] = ground_truth
 	if not cate:
 		ground_truth = data_analysis.convert_columns(ground_truth,sc)		
 		sc = [[[element + "_int" for element in sublist] for sublist in inner_list] for inner_list in sc]
@@ -133,7 +119,7 @@ def save_questions(question_tpye,dataset,infor,cate):
 	f.close()
 
 def main(question_tpye,dataset,model,infor,cate):
-	folder_name = "output_data/%s/answers_%s_%s_%s%s/"%(dataset,model,question_tpye,"infor" if infor else "noninfor",""if cate else "_int")
+	folder_name = "output_data/%s/answers_%s_%s_%s%s/"%(model,dataset,question_tpye,"infor" if infor else "noninfor",""if cate else "_int")
 	os.makedirs(folder_name,exist_ok=True)
 	f = open("%s/questions_%s.pkl"%(dataset,question_tpye),'rb')
 	questions = pickle.load(f)
